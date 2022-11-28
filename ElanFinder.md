@@ -1,6 +1,8 @@
+---
 layout: page
 title: "ELAN_FINDER"
 permalink: /elan_finder
+---
 
 <!DOCTYPE html>
 <html>
