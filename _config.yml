@@ -2,3 +2,6 @@ theme: jekyll-theme-minimal
 title: Great Apes Gestures
 authors: Emilie Genty, Michael Fuchs
 description: This is our latest coding scheme release
+
+doi: <a href="https://zenodo.org/badge/latestdoi/571517799"><img src="https://zenodo.org/badge/571517799.svg" alt="DOI"></a>
+
