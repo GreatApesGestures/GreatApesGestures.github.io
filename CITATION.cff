@@ -1,5 +1,5 @@
 cff-version: 1.0.0
-message: "If you use this methodology, documentation, data and/or software, please cite it as below."
+message: "If you use this work, please cite it as below."
 authors:
   - family-names: Genty
     given-names: Emilie
@@ -10,3 +10,4 @@ authors:
 title: Coding ape signals with ELAN
 version: v1.0.1-beta
 date-released: 2022-12-01
+type: manual
