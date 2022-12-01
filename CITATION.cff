@@ -12,7 +12,6 @@ version: v1.0.1-beta
 date-released: 2022-12-01
 doi: 10.5281/zenodo.7385461
 preferred-citation:
-  type: manual
   - family-names: Genty
     given-names: Emilie
     orcid: 0000-0003-2461-2442
