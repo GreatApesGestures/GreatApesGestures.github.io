@@ -10,4 +10,5 @@ authors:
 title: Coding ape signals with ELAN
 version: v1.0.1-beta
 date-released: 2022-12-01
-type: manual
+preferred-citation:
+  type: article
