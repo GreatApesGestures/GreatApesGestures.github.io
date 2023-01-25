@@ -9,7 +9,7 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>GApS - A Coding Scheme for Great Apes Signals in ELAN</title>
+<!-- begin _includes/seo.html --><title>Create controlled vocabularies (optional) - GApS - A Coding Scheme for Great Apes Signals in ELAN</title>
 <meta name="description" content="This is our latest coding scheme release">
 
 
@@ -17,8 +17,8 @@
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="GApS - A Coding Scheme for Great Apes Signals in ELAN">
-<meta property="og:title" content="GApS - A Coding Scheme for Great Apes Signals in ELAN">
-<meta property="og:url" content="http://localhost:4000/">
+<meta property="og:title" content="Create controlled vocabularies (optional)">
+<meta property="og:url" content="http://localhost:4000/create-controlled-vocabularies/">
 
 
   <meta property="og:description" content="This is our latest coding scheme release">
@@ -34,7 +34,7 @@
 
 
 
-<link rel="canonical" href="http://localhost:4000/">
+<link rel="canonical" href="http://localhost:4000/create-controlled-vocabularies/">
 
 
 
@@ -85,7 +85,7 @@
 
   </head>
 
-  <body class="layout--home">
+  <body class="layout--single">
     <nav class="skip-links">
   <ul>
     <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
@@ -143,113 +143,138 @@
   
   <div class="sidebar sticky">
   
-
-
-<div itemscope itemtype="https://schema.org/Person">
-
   
-
-  <div class="author__content">
     
-      <h3 class="author__name" itemprop="name"></h3>
+      
+      
+      
+      
     
     
-  </div>
-
-  <div class="author__urls-wrapper">
-    <button class="btn btn--inverse">Follow</button>
-    <ul class="author__urls social-icons">
       
 
-      
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <a href="/get-started/"><span class="nav__sub-title">Get started with ELAN</span></a>
+        
 
-      
+        
+      </li>
+    
+      <li>
+        
+          <a href="/start-annotating/"><span class="nav__sub-title">Start annotating in ELAN</span></a>
+        
 
-      
+        
+        <ul>
+          
+            <li><a href="/start-annotating/">Create tiers</a></li>
+          
+            <li><a href="/create-tier-types/">Create tier types (optional)</a></li>
+          
+            <li><a href="/create-controlled-vocabularies/" class="active">Create controlled vocabularies (optional)</a></li>
+          
+            <li><a href="/create-annotations/">Create annotations</a></li>
+          
+            <li><a href="/create-a-coding-template/">Create a coding template</a></li>
+          
+            <li><a href="/export-file/">Export annotated file in Excel</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
 
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      <!--
-  <li>
-    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
-      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
-    </a>
-  </li>
--->
-    </ul>
-  </div>
-</div>
-
+    
   
   </div>
 
 
 
-  <div class="archive">
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Create controlled vocabularies (optional)">
     
-      <h1 id="page-title" class="page__title"></h1>
     
-    The aim of this manual is to offer a systematic and reproducible way of coding ape gestures and combination of signals exchanges with the help of a tutorial, ELAN templates, coding schemes, coding examples, and Excel output, to promote data sharing and reproducibility, and to facilitate inter-coder reliability. This coding scheme protocol is not intended to be exhaustive, but to provide a good base to start coding gestures and signal combinations. This coding scheme can easily be adapted to your own research question and study species and aims at filling in the “gaps” between studies and methodologies when it comes to the study of animal signalling. We also provide a new tool “ELAN_finder”, that allows to find specific occurrences in your dataset, coded in ELAN, and to then create and extract short illustrative video clips of those specific occurrences.
+    
 
-We will first provide a simplified tutorial on how to get started with ELAN in order to apply our coding scheme, then describe the GApS coding scheme.
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">Create controlled vocabularies (optional)
+</h1>
+          
 
 
-<h3 class="archive__subtitle">Recent Posts</h3>
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <p>A <strong>controlled vocabulary</strong> (CV) is a set of predefined and limited annotations for a specific variable (tier). When annotating, this controlled vocabulary allows the user to select a value from a predefined list (drop-down menu), thus limiting annotation errors or typos (for instance, when annotating a segment in the ‘Gesture’ tier, you could select from a drop-down list of predefined values the correct gesture, e.g., as Raise, Reach, etc.).</p>
+
+<p>To create a new controlled vocabulary (CV):</p>
+
+<ul>
+  <li>Go to Edit &gt; Edit Controlled Vocabularies</li>
+</ul>
+
+<p><img src="/assets/images/CV 2.png" alt="alt text" /></p>
+
+<ul>
+  <li>Enter a CV Name (e.g., Gesture) &gt; Entry value &gt; Add (repeat for all possible values of your list) &gt; Close</li>
+</ul>
+
+<p><img src="/assets/images/CV 3.png" alt="alt text" /></p>
+
+<p>Assign the controlled vocabulary to the corresponding tier types:</p>
+
+<ul>
+  <li>Go to Tier type&gt; Change Tier Type</li>
+</ul>
+
+<p><img src="/assets/images/Figure11_changeTierType.png" alt="alt text" /></p>
+
+<ul>
+  <li>Select Type (e.g., Gesture) &gt; Use Controlled Vocabulary (e.g., Gesture) &gt; Change &gt; Close</li>
+</ul>
+
+<p><img src="/assets/images/Figure12_assignCVtoTierType.png" alt="alt text" /></p>
 
 
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
 
 
-<div class="entries-list">
+        
+
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
   
 </div>
 
-
-
-
-  </div>
-</div>
     </div>
 
     

@@ -1,13 +1,3 @@
-defaults:
-  # _docs
-  - scope:
-      path: ""
-      type: docs
-    values:
-      sidebar:
-        nav: "docs"
-
-
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 # theme: minimal-mistakes-jekyll
 title: GApS - A Coding Scheme for Great Apes Signals in ELAN
