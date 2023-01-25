@@ -9,7 +9,7 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>GApS Coding scheme - GApS - A Coding Scheme for Great Apes Signals in ELAN</title>
+<!-- begin _includes/seo.html --><title>Create a coding template - GApS - A Coding Scheme for Great Apes Signals in ELAN</title>
 <meta name="description" content="This is our latest coding scheme release">
 
 
@@ -17,8 +17,8 @@
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="GApS - A Coding Scheme for Great Apes Signals in ELAN">
-<meta property="og:title" content="GApS Coding scheme">
-<meta property="og:url" content="http://localhost:4000/gaps-coding-scheme/">
+<meta property="og:title" content="Create a coding template">
+<meta property="og:url" content="http://localhost:4000/create-a-coding-template/">
 
 
   <meta property="og:description" content="This is our latest coding scheme release">
@@ -34,7 +34,7 @@
 
 
 
-<link rel="canonical" href="http://localhost:4000/gaps-coding-scheme/">
+<link rel="canonical" href="http://localhost:4000/create-a-coding-template/">
 
 
 
@@ -141,10 +141,67 @@
 
 <div id="main" role="main">
   
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <a href="/get-started/"><span class="nav__sub-title">Get started with ELAN</span></a>
+        
+
+        
+      </li>
+    
+      <li>
+        
+          <a href="/start-annotating/"><span class="nav__sub-title">Start annotating in ELAN</span></a>
+        
+
+        
+        <ul>
+          
+            <li><a href="/start-annotating/">Create tiers</a></li>
+          
+            <li><a href="/create-tier-types/">Create tier types (optional)</a></li>
+          
+            <li><a href="/create-controlled-vocabularies/">Create controlled vocabularies (optional)</a></li>
+          
+            <li><a href="/create-annotations/">Create annotations</a></li>
+          
+            <li><a href="/create-a-coding-template/" class="active">Create a coding template</a></li>
+          
+            <li><a href="/export-file/">Export annotated file in Excel</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
 
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="GApS Coding scheme">
+    <meta itemprop="headline" content="Create a coding template">
     
     
     
@@ -152,7 +209,7 @@
     <div class="page__inner-wrap">
       
         <header>
-          <h1 id="page-title" class="page__title" itemprop="headline">GApS Coding scheme
+          <h1 id="page-title" class="page__title" itemprop="headline">Create a coding template
 </h1>
           
 
@@ -162,96 +219,24 @@
 
       <section class="page__content" itemprop="text">
         
-        <p>In Table 1 we provide a description of all the tiers (variables) contained in the GApS coding template (GApS_coding template.etf) and describe their different attributes.</p>
+        <p>Once you have created your set of tiers, tier types and controlled vocabularies that represent your coding scheme, you can save them as a coding <strong>template</strong> (.etf), that you can reuse later to create new annotation files from your media files library.</p>
 
-<p>When you create your own template, you can decide to include all variables in the Elan template or to add some variables related to the dyad and the interacting individuals such as: study species, study site, ID1-ID2 Dyad name, dyad rank difference, Dyad DSI index, signal function (based on ASO), sex (Male, Female), age class (Subadult, Adult,…),… post-hoc directly in the Excel output file.</p>
+<p>A <strong>template</strong> is an annotation document that is not linked to any media file in particular, for which all tiers, tier types and controlled vocabularies have been preserved but that is empty of annotations.</p>
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: left">Tier level</th>
-      <th style="text-align: center">Tier name</th>
-      <th style="text-align: center">Annotation type</th>
-      <th style="text-align: center">Annotation values</th>
-      <th style="text-align: center">Definition of annotations (if applicable)</th>
-      <th style="text-align: center">Segment length</th>
-      <th style="text-align: center">Segment duration</th>
-      <th style="text-align: center">Parent tier</th>
-      <th style="text-align: center">Tier_Type</th>
-      <th style="text-align: center">Controlled_vocabulary</th>
-      <th style="text-align: center">Comments</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: left">Interaction</td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center">Clip_Name</td>
-      <td style="text-align: center">Name of media file</td>
-      <td style="text-align: center">Date-Activity type- ID_1-ID_2-Rater ID; e.g., 16.01.17_ Play_KU_CLB_R1</td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center">3sec</td>
-      <td style="text-align: center">Fixed 3sec segment (from time 00:00:00)</td>
-      <td style="text-align: center">None</td>
-      <td style="text-align: center">None</td>
-      <td style="text-align: center">None</td>
-      <td style="text-align: center">In Excel output, the clip name will be only in the first few rows of the column and will have to be copied down across the other rows related to the corresponding interaction.</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">cell4</td>
-      <td style="text-align: center">cell5</td>
-      <td style="text-align: center">cell6</td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-    </tr>
-  </tbody>
-  <tbody>
-    <tr>
-      <td style="text-align: left">cell1</td>
-      <td style="text-align: center">cell2</td>
-      <td style="text-align: center">cell3</td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: left">cell4</td>
-      <td style="text-align: center">cell5</td>
-      <td style="text-align: center">cell6</td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-    </tr>
-  </tbody>
-</table>
+<p>To create a template file:</p>
+
+<ul>
+  <li>Go to menu File &gt; Save as Template</li>
+</ul>
+
+<p><img src="/assets/images/template 1.png" alt="alt text" /></p>
+
+<ul>
+  <li>Choose a destination folder and a template name</li>
+</ul>
+
+<p><img src="/assets/images/template 2.png" alt="alt text" /></p>
+
 
         
       </section>

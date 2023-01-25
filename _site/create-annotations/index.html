@@ -1,0 +1,405 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Create annotations - GApS - A Coding Scheme for Great Apes Signals in ELAN</title>
+<meta name="description" content="This is our latest coding scheme release">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="GApS - A Coding Scheme for Great Apes Signals in ELAN">
+<meta property="og:title" content="Create annotations">
+<meta property="og:url" content="http://localhost:4000/create-annotations/">
+
+
+  <meta property="og:description" content="This is our latest coding scheme release">
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/create-annotations/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": null,
+      "url": "http://localhost:4000/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="GApS - A Coding Scheme for Great Apes Signals in ELAN Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          GApS - A Coding Scheme for Great Apes Signals in ELAN
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/gesture-definition/">Gesture definition</a>
+            </li><li class="masthead__menu-item">
+              <a href="/coding-ape-signals/">Coding ape signals</a>
+            </li><li class="masthead__menu-item">
+              <a href="/gaps-coding-scheme/">GApS Coding scheme</a>
+            </li><li class="masthead__menu-item">
+              <a href="/definition-of-signals/">Definition of signals</a>
+            </li><li class="masthead__menu-item">
+              <a href="/elan-finder/">ELAN finder</a>
+            </li><li class="masthead__menu-item">
+              <a href="/00-layout/">Layout</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <a href="/get-started/"><span class="nav__sub-title">Get started with ELAN</span></a>
+        
+
+        
+      </li>
+    
+      <li>
+        
+          <a href="/start-annotating/"><span class="nav__sub-title">Start annotating in ELAN</span></a>
+        
+
+        
+        <ul>
+          
+            <li><a href="/start-annotating/">Create tiers</a></li>
+          
+            <li><a href="/create-tier-types/">Create tier types (optional)</a></li>
+          
+            <li><a href="/create-controlled-vocabularies/">Create controlled vocabularies (optional)</a></li>
+          
+            <li><a href="/create-annotations/" class="active">Create annotations</a></li>
+          
+            <li><a href="/create-a-coding-template/">Create a coding template</a></li>
+          
+            <li><a href="/export-file/">Export annotated file in Excel</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Create annotations">
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">Create annotations
+</h1>
+          
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <p>An <strong>annotation</strong> is any type of text (e.g., a speech transcription, a translation, a value, etc.) that you assign to a time <strong>segment</strong> (time interval of the media file) created in a tier (e.g., “Reach” in the “ID_2_Gesture” tier)</p>
+
+<h2 id="working-modes">Working modes</h2>
+
+<p>There are several working modes available to create annotations, but in most cases you will only need to use the annotation and segmentation modes to annotate your media file.</p>
+
+<ul>
+  <li>
+    <p><strong>Segmentation mode</strong>: designed for rapid and easy creation of empty annotations while the media is playing <br /><br />
+  In this mode, there are several segmentation options (ways to create time intervals in your tiers)</p>
+
+    <ul>
+      <li>
+        <p><ins>“two keystrokes per annotation”</ins> for non-adjacent annotations (press “enter” once to create 1st boundary of the segment and press “enter” a second time to create the 2nd boundary of the segment)</p>
+      </li>
+      <li>
+        <p><ins>“one keystroke per annotation”</ins> for adjacent annotations (press “enter” once to create the 1st boundary of the segment and press “enter” a second time to create 2nd boundary of the segment, which is also the 1st boundary of the next segment)</p>
+      </li>
+      <li>
+        <p><ins>“one keystroke per annotation”</ins>, fixed duration (here choose if the key stroke “enter” marks the beginning or the end of a fixed-duration segment.  Press “enter” once to create a fixed-duration segment, e.g., 3 sec segment)<br /><br /></p>
+      </li>
+    </ul>
+
+    <p>To <em>adjust</em> the boundaries of a created segment: it is possible to adjust the boundaries of a created segment by dragging it with the mouse to extend or shrink it (it needs to be selected by placing the mouse on it, and it becomes green).</p>
+
+    <p>To <em>delete</em> a created segment: it is possible to delete a created segment by selecting it (it becomes green) and pressing the back key to delete it.</p>
+  </li>
+  <li>
+    <p><strong>Annotation mode</strong>:  generic mode in which almost all functions are available <br /><br />
+  In this mode, you can create time intervals (segments) by using the <ins>selection mode</ins>, or simply annotate already created intervals in the segmentation mode. <br /><br />
+  To <em>adjust</em> the boundaries of a created segment: you cannot adjust the boundaries in this mode, to do so you have to switch to the Segmentation mode (see above section. <br /><br />
+  To <em>delete</em> a created segment: you can remove a segment by selecting it (it becomes blue), then go to the menu <ins>Annotation</ins> &gt; <ins>Delete annotation</ins>.   <br /><br />
+  To <em>delete</em> an annotation value: you can remove the content of an annotation. To do so, select the annotation, go to the menu <ins>Annotation</ins> &gt;  <ins>Remove annotation value</ins></p>
+  </li>
+</ul>
+
+<h2 id="create-segments-time-intervals">Create segments (time intervals)</h2>
+
+<p>To create <strong>time intervals</strong> (segments) corresponding to the occurrence of an event you wish to annotate from your media file (e.g., the occurrence of a gesture), use the Segmentation mode</p>
+
+<ul>
+  <li>Go to Option &gt; Segmentation mode</li>
+</ul>
+
+<p><img src="/assets/images/Segment.png" alt="alt text" /></p>
+
+<ul>
+  <li>Select segmentation option, for instance, “two keystrokes per annotation”</li>
+</ul>
+
+<p><img src="/assets/images/Segment 2.png" alt="alt text" /></p>
+
+<p>or  “one keystroke per annotation”, fixed duration</p>
+
+<p><img src="/assets/images/Segment 1.png" alt="alt text" /></p>
+
+<ul>
+  <li>Select the Tier you wish to add segments to by double clicking on it (it becomes highlighted in pink, with the name in red font) &gt; start creating segments (time intervals) in the selected tier</li>
+</ul>
+
+<h2 id="create-annotations">Create annotations</h2>
+
+<p>To create <strong>annotations</strong> within already created time intervals (segments created in the Segmentation mode) use the Annotation mode</p>
+
+<ul>
+  <li>Go to Option &gt; Annotation mode</li>
+</ul>
+
+<p><img src="/assets/images/segment 3.png" alt="alt text" /></p>
+
+<ul>
+  <li>Select the segment to annotate by double-cliking on it,  a little window opens. If you have created a CV for this tier, the list of possible values will appear and you can click on your selection</li>
+</ul>
+
+<p><img src="/assets/images/annotation 2.png" alt="alt text" /></p>
+
+<p>If you haven‘t created a CV for this tier, you can directly type the value in the window</p>
+
+<p><img src="/assets/images/Figure 21.png" alt="alt text" /></p>
+
+<p>To create <strong>annotations</strong> without already existing segments</p>
+
+<ul>
+  <li>Go to Option &gt; Annotation mode</li>
+</ul>
+
+<p><img src="/assets/images/segment 3.png" alt="alt text" /></p>
+
+<ul>
+  <li>Select the „Selection mode“&gt; Select the time interval by first clicking at the beginning of the time interval then dragging to highlight the selected time  interval (it becomes highlighted in blue).</li>
+</ul>
+
+<p><img src="/assets/images/Figure 20.png" alt="alt text" /></p>
+
+<h2 id="create-annotations-from-overlapping-annotations">Create annotations from overlapping annotations</h2>
+
+<p>You can automatically create annotations from overlapping segments from different tiers (e.g., for Mutual gaze presence= overlap segment between ID_1_gaze orientation and ID_2_gaze orientation segments)</p>
+
+<ul>
+  <li>Go to Menu Tier &gt; create annotation from overlaps</li>
+</ul>
+
+<p><img src="/assets/images/Overlaps 1.png" alt="alt text" /></p>
+
+<ul>
+  <li>Use currently opened file</li>
+</ul>
+
+<p><img src="/assets/images/overlaps 2.png" alt="alt text" /></p>
+
+<ul>
+  <li>Select tiers to use for computation (e.g.; for Mutual gaze, ID_1_gaze orientation and ID_2_gaze orientation).</li>
+</ul>
+
+<p><img src="/assets/images/overlaps 3.png" alt="alt text" />
+<img src="/assets/images/overlaps 4.png" alt="alt text" />
+<img src="/assets/images/overlaps 5.png" alt="alt text" /></p>
+
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 GApS - A Coding Scheme for Great Apes Signals in ELAN. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
