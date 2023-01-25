@@ -1,0 +1,32 @@
+main:  
+  - title: "Layout"
+    url: /00-layout/
+  - title: "Gesture definition"
+    url: /01-gesture-definition/
+  - title: "Coding ape signals"
+    url: /02-coding-ape-signals/
+  - title: "GApS Coding scheme"
+    url: /03-gaps-coding-scheme/
+  - title: "Definition of signals"
+    url: /04-definition-of-signals/
+  - title: "ELAN finder"
+    url: /05-elan-finder/
+
+docs:
+  - title: Get started with ELAN
+  - title: Start annotating in ELAN
+    children:
+      - title: "Create tiers"
+        url: //
+      - title: "Create tier types (optional)"
+        url: //
+      - title: "Create Controlled vocabularies (optional)"
+        url: //
+      - title: "Create annotations"
+        url: //
+      - title: "Create a coding template"
+        url: //
+      - title: "Export annotated file in Excel"
+        url: //
+
+        
