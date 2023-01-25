@@ -1,7 +1,7 @@
 ---
 title: "Gesture definition"
 layout: single
-permalink: /01-gesture-definition/
+permalink: /gesture-definition/
 ---
 
 We define a gesture as a mechanically ineffective physical movement of the limbs or head, directed towards a specific recipient and that is used in a ‘goal-directed’ way to influence the recipient’s behavior in a desired way. Body signals are defined in similar terms for physical movements or postures of the whole body (that can be part of the species typical repertoire such as sexual invitation postures or display behaviours). 

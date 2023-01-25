@@ -9,7 +9,7 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>GApS - A Coding Scheme for Great Apes Signals in ELAN</title>
+<!-- begin _includes/seo.html --><title>Create tier types (optional) - GApS - A Coding Scheme for Great Apes Signals in ELAN</title>
 <meta name="description" content="This is our latest coding scheme release">
 
 
@@ -17,8 +17,8 @@
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="GApS - A Coding Scheme for Great Apes Signals in ELAN">
-<meta property="og:title" content="GApS - A Coding Scheme for Great Apes Signals in ELAN">
-<meta property="og:url" content="http://localhost:4000/">
+<meta property="og:title" content="Create tier types (optional)">
+<meta property="og:url" content="http://localhost:4000/create-tier-types/">
 
 
   <meta property="og:description" content="This is our latest coding scheme release">
@@ -34,7 +34,7 @@
 
 
 
-<link rel="canonical" href="http://localhost:4000/">
+<link rel="canonical" href="http://localhost:4000/create-tier-types/">
 
 
 
@@ -85,7 +85,7 @@
 
   </head>
 
-  <body class="layout--home">
+  <body class="layout--single">
     <nav class="skip-links">
   <ul>
     <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
@@ -143,113 +143,135 @@
   
   <div class="sidebar sticky">
   
-
-
-<div itemscope itemtype="https://schema.org/Person">
-
   
+    
+      
+      
+      
+      
+    
+    
+      
 
-  <div class="author__content">
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
     
-      <h3 class="author__name" itemprop="name"></h3>
+      <li>
+        
+          <a href="/get-started/"><span class="nav__sub-title">Get started with ELAN</span></a>
+        
+
+        
+      </li>
     
+      <li>
+        
+          <a href="/start-annotating/"><span class="nav__sub-title">Start annotating in ELAN</span></a>
+        
+
+        
+        <ul>
+          
+            <li><a href="/start-annotating/">Create tiers</a></li>
+          
+            <li><a href="/create-tier-types/" class="active">Create tier types (optional)</a></li>
+          
+            <li><a href="/create-controlled-vocabularies/">Create controlled vocabularies (optional)</a></li>
+          
+            <li><a href="/create-annotations/">Create annotations</a></li>
+          
+            <li><a href="/create-a-coding-template/">Create a coding template</a></li>
+          
+            <li><a href="/export-file/">Export annotated file in Excel</a></li>
+          
+        </ul>
+        
+      </li>
     
+  </ul>
+</nav>
+
+    
+  
   </div>
 
-  <div class="author__urls-wrapper">
-    <button class="btn btn--inverse">Follow</button>
-    <ul class="author__urls social-icons">
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Create tier types (optional)">
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">Create tier types (optional)
+</h1>
+          
+
+
+        </header>
       
 
-      
+      <section class="page__content" itemprop="text">
+        
+        <p>Every tier can be assigned to a Tier type that specifies the annotations constraints for this tier.</p>
 
-      
+<p>To create Tier types:</p>
 
-      
+<ul>
+  <li>Go the menu Type &gt; Add new tier type</li>
+</ul>
 
-      
+<p><img src="/assets/images/Tier type 1.png" alt="alt text" /></p>
 
-      
+<ul>
+  <li>Enter a Type name (e.g., Gesture) &gt; Add &gt; Close (to save changes)</li>
+</ul>
 
-      
+<p><img src="/assets/images/Tier type 2.png" alt="alt text" /></p>
 
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      <!--
+<ul>
   <li>
-    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
-      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
-    </a>
+    <p>Optionally go to Use Controlled Vocabulary (see section 2.2.3). Select a controlled vocabulary or leave this to None</p>
   </li>
--->
-    </ul>
-  </div>
-</div>
+  <li>
+    <p>Allocate the tier type to the corresponding tier: Go to menu Tier &gt; Change tier attributes &gt; Select tier name (e.g., ID_2_gesture) &gt; Select tier type (e.g., Gesture) &gt; Change &gt; Close</p>
+  </li>
+</ul>
+
+<p><img src="/assets/images/Tier type 3.png" alt="alt text" /></p>
+
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
 
   
-  </div>
-
-
-
-  <div class="archive">
-    
-      <h1 id="page-title" class="page__title"></h1>
-    
-    The aim of this manual is to offer a systematic and reproducible way of coding ape gestures and combination of signals exchanges with the help of a tutorial, ELAN templates, coding schemes, coding examples, and Excel output, to promote data sharing and reproducibility, and to facilitate inter-coder reliability. This coding scheme protocol is not intended to be exhaustive, but to provide a good base to start coding gestures and signal combinations. This coding scheme can easily be adapted to your own research question and study species and aims at filling in the “gaps” between studies and methodologies when it comes to the study of animal signalling. We also provide a new tool “ELAN_finder”, that allows to find specific occurrences in your dataset, coded in ELAN, and to then create and extract short illustrative video clips of those specific occurrences.
-
-We will first provide a simplified tutorial on how to get started with ELAN in order to apply our coding scheme, then describe the GApS coding scheme.
-
-
-<h3 class="archive__subtitle">Recent Posts</h3>
-
-
-
-
-<div class="entries-list">
   
 </div>
 
-
-
-
-  </div>
-</div>
     </div>
 
     
