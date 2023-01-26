@@ -13,8 +13,8 @@ main:
     url: /iot-test/
   - title: "References"
     url: /references/
-  # - title: "Layout"
-  #   url: /00-layout/
+  - title: "Layout"
+    url: /00-layout/
 
 docs:
   - title: Get started with ELAN
@@ -61,5 +61,21 @@ signals:
   - title: "Ape facial expressions"
     url: /definition-of-signals/#ape-facial-expressions
     
+elan_finder:
+  - title: "What is it?"
+    url: /elan-finder/#what-is-it
+  - title: "Demo"
+    url: /elan-finder/#demo
+  - title: "Source code"
+    url: /elan-finder/#source-code
+  - title: "Prerequisites"
+    url: /elan-finder/#prerequisites
+  - title: "Installation"
+    url: /elan-finder/#installation
+  - title: "Getting started"
+    url: /elan-finder/#getting-started
+  - title: "Support"
+    url: /elan-finder/#support
+
 
         
