@@ -9,7 +9,7 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Elan finder - GApS</title>
+<!-- begin _includes/seo.html --><title>ELAN finder - GApS</title>
 <meta name="description" content="This is our latest coding scheme release">
 
 
@@ -17,7 +17,7 @@
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="GApS">
-<meta property="og:title" content="Elan finder">
+<meta property="og:title" content="ELAN finder">
 <meta property="og:url" content="http://localhost:4000/elan-finder/">
 
 
@@ -125,6 +125,8 @@
               <a href="/iot-test/">Interrater observer reliability test with EasyDIAG</a>
             </li><li class="masthead__menu-item">
               <a href="/references/">References</a>
+            </li><li class="masthead__menu-item">
+              <a href="/00-layout/">Layout</a>
             </li></ul>
         
         <button class="greedy-nav__toggle hidden" type="button">
@@ -145,10 +147,91 @@
 
 <div id="main" role="main">
   
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <a href="/elan-finder/#what-is-it"><span class="nav__sub-title">What is it?</span></a>
+        
+
+        
+      </li>
+    
+      <li>
+        
+          <a href="/elan-finder/#demo"><span class="nav__sub-title">Demo</span></a>
+        
+
+        
+      </li>
+    
+      <li>
+        
+          <a href="/elan-finder/#source-code"><span class="nav__sub-title">Source code</span></a>
+        
+
+        
+      </li>
+    
+      <li>
+        
+          <a href="/elan-finder/#prerequisites"><span class="nav__sub-title">Prerequisites</span></a>
+        
+
+        
+      </li>
+    
+      <li>
+        
+          <a href="/elan-finder/#installation"><span class="nav__sub-title">Installation</span></a>
+        
+
+        
+      </li>
+    
+      <li>
+        
+          <a href="/elan-finder/#getting-started"><span class="nav__sub-title">Getting started</span></a>
+        
+
+        
+      </li>
+    
+      <li>
+        
+          <a href="/elan-finder/#support"><span class="nav__sub-title">Support</span></a>
+        
+
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
 
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Elan finder">
+    <meta itemprop="headline" content="ELAN finder">
     
     
     
@@ -156,7 +239,7 @@
     <div class="page__inner-wrap">
       
         <header>
-          <h1 id="page-title" class="page__title" itemprop="headline">Elan finder
+          <h1 id="page-title" class="page__title" itemprop="headline">ELAN finder
 </h1>
           
 
@@ -166,7 +249,104 @@
 
       <section class="page__content" itemprop="text">
         
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+        <h2 id="what-is-it">What is it?</h2>
+
+<p><strong>elan_finder</strong> is a free open source software provided under the MIT license.</p>
+
+<p>Its simple graphical user interface (GUI) provides you with a rapid way to</p>
+
+<ul>
+  <li>filter</li>
+  <li>retrieve</li>
+  <li>preview</li>
+  <li>export</li>
+</ul>
+
+<p>any of your ELAN annotations across your entire database.</p>
+
+<!-- 
+you can now directly access and preview all your ELAN data across all videos of your database. Additionally, you can export all of your ELAN database in one click in an spreadsheet format in one This can, which can save you valuable time on researching your ELAN database   -->
+
+<h2 id="demo">Demo</h2>
+<p><img src="/assets/videos/demo.gif" alt="Alt text" /></p>
+
+<h2 id="source-code">Source code</h2>
+
+<p>All source code is made publicly available at <a href="https://github.com/MitchFuchs/elan_finder.git">https://github.com/MitchFuchs/elan_finder.git</a></p>
+
+<h2 id="prerequisites">Prerequisites</h2>
+
+<p>The current software has been tested on</p>
+
+<ul>
+  <li>Ubuntu 20.04</li>
+  <li>Windows 10</li>
+</ul>
+
+<h2 id="installation">Installation</h2>
+
+<h4 id="on-linux">On Linux</h4>
+
+<p>Open your Terminal and execute the commands listed below.</p>
+
+<p>Clone the github repository and the source code on your local machine<br />
+<code class="language-plaintext highlighter-rouge">git clone https://github.com/MitchFuchs/elan_finder.git</code></p>
+
+<p>Enter the newly created repository <br />
+<code class="language-plaintext highlighter-rouge">cd elan_finder</code></p>
+
+<p>Create a new conda environment <br />
+<code class="language-plaintext highlighter-rouge">conda create --name elan_finder python=3.8</code></p>
+
+<p>Activate the newly created conda environment<br />
+<code class="language-plaintext highlighter-rouge">conda activate elan_finder</code></p>
+
+<p>Install all the required packages<br />
+<code class="language-plaintext highlighter-rouge">pip install -r requirements.txt</code></p>
+
+<p>Start the GUI<br />
+<code class="language-plaintext highlighter-rouge">python main.py</code></p>
+
+<h2 id="getting-started">Getting started</h2>
+
+<p>Once the GUI has correctly been launched, you are all set!</p>
+
+<ul>
+  <li>First click on ‘Browse’ and select the folder containing your ELAN database</li>
+  <li>Take a sip of coffee - your annotations are being processed, it will take a few seconds. Breathe.</li>
+  <li>Select a Tier type in the first dropdown list</li>
+  <li>Select a Annotation value in the second dropdown list</li>
+</ul>
+
+<p>The upper right panel displays all annotations in your database that meet your criteria</p>
+
+<ul>
+  <li>Optionally (if applicable) select a context, phases and/or subphases filter to refine your results in the three dropdown lists below</li>
+</ul>
+
+<p>In the upper right panel</p>
+
+<ul>
+  <li>Scroll through your annotations, to display them all</li>
+  <li>Double-click any annotation to preview it in the lower right panel. The preview start at the beginning of your annotation but does not stop at its end</li>
+</ul>
+
+<p>Other functionalities</p>
+
+<ul>
+  <li>Click on ‘Export All’ to export all annotations of your database in a spreadsheet format (.xlsx)</li>
+  <li>Click on ‘Export Selection’ to export all annotations currently selected in a spreadsheet format (.xlsx)</li>
+  <li>Click on ‘Open in ELAN’ to open the currently selected annotation in ELAN</li>
+  <li>Click on ‘Stop playing’ to stop the preview</li>
+  <li>Move the cursor left/right to slow down/speed up the preview speed</li>
+</ul>
+
+<h2 id="support">Support</h2>
+
+<p>For support, issues and/or improvements please get in touch <a href="https://github.com/MitchFuchs/elan_finder/issues">here</a>.</p>
+
+<p>We are happy to help!</p>
+
 
         
       </section>
