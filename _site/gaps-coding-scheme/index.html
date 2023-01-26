@@ -85,7 +85,7 @@
 
   </head>
 
-  <body class="layout--single">
+  <body class="layout--single wide">
     <nav class="skip-links">
   <ul>
     <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
@@ -166,6 +166,15 @@
 
 <p>When you create your own template, you can decide to include all variables in the Elan template or to add some variables related to the dyad and the interacting individuals such as: study species, study site, ID1-ID2 Dyad name, dyad rank difference, Dyad DSI index, signal function (based on ASO), sex (Male, Female), age class (Subadult, Adult,…),… post-hoc directly in the Excel output file.</p>
 
+<!-- | Tier level | Tier name | Annotation type | Annotation values | Definition of annotations (if applicable) | Segment length | Segment duration | Parent tier | Tier_Type | Controlled_vocabulary | Comments
+|:--------|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|
+| Interaction   |    |  |    |    |    |     |    |    |    | |
+|    | Clip_Name   | Name of media file   | Date-Activity type- ID_1-ID_2-Rater ID; e.g., 16.01.17_ Play_KU_CLB_R1   |    | 3sec   | Fixed 3sec segment (from time 00:00:00)   | None   | None   | None   | In Excel output, the clip name will be only in the first few rows of the column and will have to be copied down across the other rows related to the corresponding interaction. |
+| cell4   | cell5   | cell6   |
+|-----------------------------|
+| cell1   | cell2   | cell3   |
+| cell4   | cell5   | cell6   | -->
+
 <table>
   <thead>
     <tr>
@@ -210,9 +219,87 @@
       <td style="text-align: center">In Excel output, the clip name will be only in the first few rows of the column and will have to be copied down across the other rows related to the corresponding interaction.</td>
     </tr>
     <tr>
-      <td style="text-align: left">cell4</td>
-      <td style="text-align: center">cell5</td>
-      <td style="text-align: center">cell6</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center">Study_Site</td>
+      <td style="text-align: center">Name of study site</td>
+      <td style="text-align: center">LYB, SD, BSL, SIG, LVS</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">3sec</td>
+      <td style="text-align: center">Fixed 3sec segment (from time 00:00:00)</td>
+      <td style="text-align: center">None</td>
+      <td style="text-align: center">Study_site</td>
+      <td style="text-align: center">Study_site</td>
+      <td style="text-align: center">In Excel output, the study site will be only in the first few rows of the column and will have to be copied down across the other rows related to the corresponding interaction.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center">Species</td>
+      <td style="text-align: center">Name of study species</td>
+      <td style="text-align: center">Bonobos, Chimpanzees</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">3sec</td>
+      <td style="text-align: center">Fixed 3sec segment (from time 00:00:00)</td>
+      <td style="text-align: center">None</td>
+      <td style="text-align: center">Species</td>
+      <td style="text-align: center">Species</td>
+      <td style="text-align: center">In Excel output, the species name will be only in the first few rows of the column and will have to be copied down across the other rows related to the corresponding interaction.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center">Activity_Type</td>
+      <td style="text-align: center">Type of social activity</td>
+      <td style="text-align: center">e.g., Grooming; Play, Sex; Travel,…</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">Activity duration</td>
+      <td style="text-align: center">From onset of first movement typical of activity, to cessation of movements typical of activity</td>
+      <td style="text-align: center">None</td>
+      <td style="text-align: center">Activity_type</td>
+      <td style="text-align: center">Activity_type</td>
+      <td style="text-align: center">In Excel output, type of social activity will be only in the first few rows of the column and will have to be copied down across the other rows related to the corresponding interaction.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center">Dyad_name</td>
+      <td style="text-align: center">Identities of the interacting partners</td>
+      <td style="text-align: center">ID_a@ID_b; e.g., CLB@KU</td>
+      <td style="text-align: center">ID_a is the first name in alphabetic order</td>
+      <td style="text-align: center">3sec</td>
+      <td style="text-align: center">Fixed 3sec segment (from time 00:00:00)</td>
+      <td style="text-align: center">None</td>
+      <td style="text-align: center">Dyad_name</td>
+      <td style="text-align: center">Dyad_name</td>
+      <td style="text-align: center">The dyad name should always be the same throughout the dataset regardless of who is ID_1 in the interaction ( for instance, the dyad  CLB@KU will always be named  CLB@KU regardless of whether CLB is ID_1 or ID_2 in a given interaction), ID_a should be the first in the alphabetic order. In Excel output, the dyad name will be only in the first few rows of the column and will have to be copied down across the other rows related to the corresponding interaction.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center">Dyad_DSI</td>
+      <td style="text-align: center">DSI is an index of dyad bond strength (see Neumann and Kulik, 2014, and Heesen et al. 2021, for description of methods to obtain DSI indices)</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">3sec</td>
+      <td style="text-align: center">Fixed 3sec segment (from time 00:00:00)</td>
+      <td style="text-align: center">None</td>
+      <td style="text-align: center">None</td>
+      <td style="text-align: center">None</td>
+      <td style="text-align: center">In Excel output, the DSI index value will be only in the first few rows of the column and will have to be copied down across the other rows related to the corresponding interaction.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center">ID_1_ID_2_Rank_Diff</td>
+      <td style="text-align: center">Elorating index of rank difference between ID_1 and ID_2 (see Silk et al., 2013 and Heesen et al. 2021, for description of methods to obtain Elorating indices)</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">3sec</td>
+      <td style="text-align: center">Fixed 3sec segment (from time 00:00:00)</td>
+      <td style="text-align: center">None</td>
+      <td style="text-align: center">None</td>
+      <td style="text-align: center">None</td>
+      <td style="text-align: center">In Excel output, the Elorating index value will be only in the first few rows of the column and will have to be copied down across the other rows related to the corresponding interaction.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">ID_1</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
       <td style="text-align: center"> </td>
       <td style="text-align: center"> </td>
       <td style="text-align: center"> </td>
@@ -222,12 +309,270 @@
       <td style="text-align: center"> </td>
       <td style="text-align: center"> </td>
     </tr>
-  </tbody>
-  <tbody>
     <tr>
-      <td style="text-align: left">cell1</td>
-      <td style="text-align: center">cell2</td>
-      <td style="text-align: center">cell3</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center">ID_1</td>
+      <td style="text-align: center">Identity of individual who produces the first signal in the interaction</td>
+      <td style="text-align: center">e.g., KZ</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">3sec</td>
+      <td style="text-align: center">Fixed 3sec segment (from time 00:00:00)</td>
+      <td style="text-align: center">None</td>
+      <td style="text-align: center">ID</td>
+      <td style="text-align: center">ID</td>
+      <td style="text-align: center">ID_1 corresponds to the identity of the individual who produces the first signal in the interaction. In Excel output, ID_1 name will be only in the first few rows of the column and will have to be copied down across the other rows related to the corresponding interaction.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center">ID_1_Bout _number</td>
+      <td style="text-align: center">Bout number in interaction</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">A bout is a string of gesture and/or gesture sequences</td>
+      <td style="text-align: center">Length of bout</td>
+      <td style="text-align: center">From beginning of segment of ID_1 first produced gesture, to end of segment of ID_1 last produced gesture</td>
+      <td style="text-align: center">None</td>
+      <td style="text-align: center">None</td>
+      <td style="text-align: center">None</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center">ID_1_Sequence_number</td>
+      <td style="text-align: center">Sequence number in interaction</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">A sequence is a string of 2 or more gestures produced by one signaller without pause, and that follow each other by less than 1 sec.</td>
+      <td style="text-align: center">Length of sequence</td>
+      <td style="text-align: center">From beginning of segment of ID_1 first produced gesture in sequence, to end of segment of ID_1 last produced gesture in sequence</td>
+      <td style="text-align: center">None</td>
+      <td style="text-align: center">None</td>
+      <td style="text-align: center">None</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center">ID_1_Combination_number</td>
+      <td style="text-align: center">Signal combination number in interaction</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">A signal combination is a string of signals from different sensory modalities (e.g., gesture + call; gesture + facial expression,) produced simultaneously and overlap, or that follow each other by less than 1 sec.</td>
+      <td style="text-align: center">Length of overlap between the signals segments</td>
+      <td style="text-align: center">From beginning to end of overlap between segments of ID_1 first and second produced signals in combination</td>
+      <td style="text-align: center">None</td>
+      <td style="text-align: center">None</td>
+      <td style="text-align: center">None</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center">ID_1_Goal reached</td>
+      <td style="text-align: center">Yes/No (0/1)</td>
+      <td style="text-align: center">0;1</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">3sec</td>
+      <td style="text-align: center">Fixed 3sec segment (from moment goal is reached, e.g., when first movement typical of activity (e.g., sex, play, grooming) starts</td>
+      <td style="text-align: center">None</td>
+      <td style="text-align: center">Presence</td>
+      <td style="text-align: center">Presence</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center">ID_1 _Gesture_R1</td>
+      <td style="text-align: center">Gesture Type</td>
+      <td style="text-align: center">See Table 2 for gesture type definitions</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">ID_1 gesture segment length</td>
+      <td style="text-align: center">From onset of movement to produce gesture from a neutral position, to onset of retraction from gesture held position to go back to neutral position (or to start a new gesture, or end  of gesture action)</td>
+      <td style="text-align: center">None</td>
+      <td style="text-align: center">Gesture</td>
+      <td style="text-align: center">Gesture</td>
+      <td style="text-align: center">Tier names must contain the indicators R1 for the first rater and R2 for the second rater for calculating interrater agreement with EasyDIAg (see section 6 of GApS manual)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center">ID_1_Gest_Mod</td>
+      <td style="text-align: center">Sensory modality of gesture type</td>
+      <td style="text-align: center">Silent-visible; Tactile; Audible</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">ID_1 gesture segment length</td>
+      <td style="text-align: center">ID_1 gesture segment duration</td>
+      <td style="text-align: center">ID_1_gesture</td>
+      <td style="text-align: center">Modality</td>
+      <td style="text-align: center">Modality</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center">ID_1_Gesture_amplitude_R1</td>
+      <td style="text-align: center">Amplitude of gesture in space</td>
+      <td style="text-align: center">Low, Medium, High; NA (See list of amplitudes definition for each gesture of repertoire; in preparation for manuscript)</td>
+      <td style="text-align: center">Low= minimum amplitude; medium= intermediate amplitude; High: maximum amplitude</td>
+      <td style="text-align: center">ID_1 gesture segment length</td>
+      <td style="text-align: center">ID_1 gesture segment duration</td>
+      <td style="text-align: center">ID_1_gesture</td>
+      <td style="text-align: center">Amplitude</td>
+      <td style="text-align: center">Amplitude</td>
+      <td style="text-align: center">Tier names must contain the indicators R1 for the first rater and R2 for the second rater for calculating interrater agreement with EasyDIAg (see section 6 of GApS manual)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center">ID_1_Persistence</td>
+      <td style="text-align: center">Yes/No (0/1)</td>
+      <td style="text-align: center">0;1</td>
+      <td style="text-align: center">If ID_1 gesture is repetition of first ID_1_gesture produced in sequence= 1; if  ID_1 gesture is different from first ID_1_gesture produced in sequence= 0; if ID_1 gesture is repetition of another gesture than first gesture produced in sequence= no annotation</td>
+      <td style="text-align: center">ID_1 gesture segment length</td>
+      <td style="text-align: center">ID_1 gesture segment duration</td>
+      <td style="text-align: center">ID_1_gesture</td>
+      <td style="text-align: center">Presence</td>
+      <td style="text-align: center">Presence</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center">ID_1_Elaboration</td>
+      <td style="text-align: center">Yes/No (0/1)</td>
+      <td style="text-align: center">0;1</td>
+      <td style="text-align: center">If ID_1 gesture is repetition of first ID_1_gesture produced in sequence= 0 if  ID_1 gesture is different from first ID_1_gesture produced in sequence= 1</td>
+      <td style="text-align: center">ID_1 gesture segment length</td>
+      <td style="text-align: center">ID_1 gesture segment duration</td>
+      <td style="text-align: center">ID_1_gesture</td>
+      <td style="text-align: center">Presence</td>
+      <td style="text-align: center">Presence</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center">ID 1 _overlapping Gesture 1 R1</td>
+      <td style="text-align: center">Gesture Type</td>
+      <td style="text-align: center">See Table 2 for gesture types definitions</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">Gesture segment length</td>
+      <td style="text-align: center">From onset of movement to produce gesture from a neutral position, to onset of retraction from gesture held position to go back to neutral position (or to start a new gesture, or end of gesture action)</td>
+      <td style="text-align: center">None</td>
+      <td style="text-align: center">Gesture</td>
+      <td style="text-align: center">Gesture</td>
+      <td style="text-align: center">Tier names must contain the indicators R1 for the first rater and R2 for the second rater for calculating interrater agreement with EasyDIAg (see section 6 of GApS manual)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center">ID_1 _overlapping_Gesture_2_R1</td>
+      <td style="text-align: center">Gesture Type</td>
+      <td style="text-align: center">See Table 2 for gesture types definitions</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">Gesture segment length</td>
+      <td style="text-align: center">From onset of movement to produce gesture from a neutral position, to onset of retraction from gesture held position to go back to neutral position (or to start a new gesture, or end of gesture action)</td>
+      <td style="text-align: center">None</td>
+      <td style="text-align: center">Gesture</td>
+      <td style="text-align: center">Gesture</td>
+      <td style="text-align: center">Tier names must contain the indicators R1 for the first rater and R2 for the second rater for calculating interrater agreement with EasyDIAg (see section 6 of GApS manual)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center">ID_1 _Body signal _R1</td>
+      <td style="text-align: center">Body signal type</td>
+      <td style="text-align: center">See Table 3 for Body signal types definitions</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">Body signal segment length</td>
+      <td style="text-align: center">From onset of movement to produce body signal to onset of movement to end body signal</td>
+      <td style="text-align: center">None</td>
+      <td style="text-align: center">Body_signal</td>
+      <td style="text-align: center">Body_Signal</td>
+      <td style="text-align: center">Tier names must contain the indicators R1 for the first rater and R2 for the second rater for calculating interrater agreement with EasyDIAg (see section 6 of GApS manual)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center">ID_1 _Vocalisation_R1</td>
+      <td style="text-align: center">Vocalisation Type</td>
+      <td style="text-align: center">See Table 4 for vocalisation types definitions</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">Vocalisation segment length</td>
+      <td style="text-align: center">From onset of vocalisation production to end of vocalisation production</td>
+      <td style="text-align: center">None</td>
+      <td style="text-align: center">Vocalisation</td>
+      <td style="text-align: center">Vocalisation</td>
+      <td style="text-align: center">Tier names must contain the indicators R1 for the first rater and R2 for the second rater for calculating interrater agreement with EasyDIAg (see section 6 of GApS manual)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center">ID_1 _Facial expression_R1</td>
+      <td style="text-align: center">Facial expression</td>
+      <td style="text-align: center">See Table 5 for Facial expression types definitions</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">Facial expression segment length</td>
+      <td style="text-align: center">From onset of facial movements to produce facial expression, to end od facial expression</td>
+      <td style="text-align: center">None</td>
+      <td style="text-align: center">Facial_expression</td>
+      <td style="text-align: center">Facial_expression</td>
+      <td style="text-align: center">Tier names must contain the indicators R1 for the first rater and R2 for the second rater for calculating interrater agreement with EasyDIAg (see section 6 of GApS manual)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center">ID_1_Gaze orientation_R1</td>
+      <td style="text-align: center">Gaze directed at partner, when facing or looking back at partner</td>
+      <td style="text-align: center">Partner, Gaze_back,</td>
+      <td style="text-align: center">Partner = Signaller is gazing directly at recipient’s face, Gaze back= Signaller is gazing back at partner’s face over his shoulder while walking away</td>
+      <td style="text-align: center">Gaze segment length</td>
+      <td style="text-align: center">From moment gaze is locked on partner to moment gaze is detached from partner</td>
+      <td style="text-align: center">None</td>
+      <td style="text-align: center">Gaze</td>
+      <td style="text-align: center">Gaze</td>
+      <td style="text-align: center">Tier names must contain the indicators R1 for the first rater and R2 for the second rater for calculating interrater agreement with EasyDIAg (see section 6 of GApS manual)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center">ID_1_ Body_part_R1</td>
+      <td style="text-align: center">Recipient’s body part touched by ID_2 tactile gesture</td>
+      <td style="text-align: center">Arm; Back; Breast; Face: Fit; Genitals; Hand; Head; Hind; Hip; Leg; Shoulder; Stomach; Wrist; Out_of_Sight</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">ID_1 gesture segment length</td>
+      <td style="text-align: center">ID_1 gesture segment duration</td>
+      <td style="text-align: center">None</td>
+      <td style="text-align: center">Recipient_body_parts</td>
+      <td style="text-align: center">Recipient_body_parts</td>
+      <td style="text-align: center">Tier names must contain the indicators R1 for the first rater and R2 for the second rater for calculating interrater agreement with EasyDIAg (see section 6 of GApS manual)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center">ID_1_ Behavioral_response_R1</td>
+      <td style="text-align: center">Behaviour type performed in response to signal produced by ID_2</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">Behaviour segment length</td>
+      <td style="text-align: center">From onset of movement typical of the behaviour to moment behaviour is achieved</td>
+      <td style="text-align: center">None</td>
+      <td style="text-align: center">None</td>
+      <td style="text-align: center">None</td>
+      <td style="text-align: center">Tier names must contain the indicators R1 for the first rater and R2 for the second rater for calculating interrater agreement with EasyDIAg (see section 6 of GApS manual)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center">ID-1 _Signal_function</td>
+      <td style="text-align: center">Function of signal based on ASO (see Hobaiter and Byrne, 2014 for description of ASO)</td>
+      <td style="text-align: center">Attention getter; Leave_taking; Follow-invitation, Contact_invitation; Chase_invitation; Play_contact_invitation; Sex_invitation; Grooming_invitation; Stop:request; Move_away_request</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">Corresponding signal segment length</td>
+      <td style="text-align: center">Corresponding signal segment duration</td>
+      <td style="text-align: center">None</td>
+      <td style="text-align: center">Function</td>
+      <td style="text-align: center">Function</td>
+      <td style="text-align: center">Based on ASO (Apparently Stisfactory Outcome, see Hobaiter eand Byrne, 2014), if behavioural outcome appears satisfactory, the signaller should stop signaling. The function of signals can be inferred at the end of the bout.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center">ID_1_Activity_Role</td>
+      <td style="text-align: center">Role of ID_1 in interaction</td>
+      <td style="text-align: center">Groomer; groomee; chaser; chasee; leader; follower</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">3sec</td>
+      <td style="text-align: center">3sec</td>
+      <td style="text-align: center">None</td>
+      <td style="text-align: center">Role</td>
+      <td style="text-align: center">Role</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">ID_2</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
       <td style="text-align: center"> </td>
       <td style="text-align: center"> </td>
       <td style="text-align: center"> </td>
@@ -238,9 +583,267 @@
       <td style="text-align: center"> </td>
     </tr>
     <tr>
-      <td style="text-align: left">cell4</td>
-      <td style="text-align: center">cell5</td>
-      <td style="text-align: center">cell6</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center">ID-2</td>
+      <td style="text-align: center">Identity of the individual that is the receiver of the first signal produced in the interaction</td>
+      <td style="text-align: center">e.g., KL</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">3sec</td>
+      <td style="text-align: center">Fixed 3sec segment (from time 00:00:00)</td>
+      <td style="text-align: center">None</td>
+      <td style="text-align: center">ID</td>
+      <td style="text-align: center">ID</td>
+      <td style="text-align: center">ID2 corresponds to the ID of individual who was the recipient of the first signal produced in the interaction. In Excel output, ID_2 will be only in the first few rows of the column and will have to be copied down across the other rows related to the corresponding interaction.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center">ID_2_Bout number</td>
+      <td style="text-align: center">Bout number in interaction</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">A bout is a string of gesture and/or gesture sequences</td>
+      <td style="text-align: center">Length of bout</td>
+      <td style="text-align: center">From beginning of segment of ID_2 first produced gesture, to end of segment of ID_2 last produced gesture</td>
+      <td style="text-align: center">None</td>
+      <td style="text-align: center">None</td>
+      <td style="text-align: center">None</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center">ID_2_Sequence_number</td>
+      <td style="text-align: center">Sequence number in bout</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">A sequence is a string of 2 or more gestures produced by one signaller without pause and that follow each other by less than 1 sec.</td>
+      <td style="text-align: center">length of sequence</td>
+      <td style="text-align: center">From beginning of segment of ID_2 first produced gesture, to end of segment of ID_2 last produced gesture in sequence</td>
+      <td style="text-align: center">None</td>
+      <td style="text-align: center">None</td>
+      <td style="text-align: center">None</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center">ID_2_Combination_number</td>
+      <td style="text-align: center">Signal combination number in interaction</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">A signal combination is a string of signals from different sensory modes (e.g., gesture + call; gesture + facial expression,) produced simultaneously and overlap, or that follow each other by less than 1 sec.</td>
+      <td style="text-align: center">Length of overlap between the signals segments</td>
+      <td style="text-align: center">From beginning to end of overlap between segments of ID_2 first and second produced signals in combination</td>
+      <td style="text-align: center">None</td>
+      <td style="text-align: center">None</td>
+      <td style="text-align: center">None</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center">ID_2_Goal reached</td>
+      <td style="text-align: center">Yes/No (0/1)</td>
+      <td style="text-align: center">0;1</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">3sec</td>
+      <td style="text-align: center">Fixed 3sec segment (from moment goal is reached, e.g., when first movement typical of activity (e.g., sex, play, grooming) starts</td>
+      <td style="text-align: center">None</td>
+      <td style="text-align: center">Presence</td>
+      <td style="text-align: center">Presence</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center">ID-2<em>Gaze orientation</em> R1</td>
+      <td style="text-align: center">Gaze directed at partner, when facing or looking back at partner</td>
+      <td style="text-align: center">Partner, Gaze_back</td>
+      <td style="text-align: center">Partner = Signaller is gazing directly at recipient’s face, Gaze back= Signaller is gazing back at partner’s face over his shoulder while walking away</td>
+      <td style="text-align: center">Gaze segment length</td>
+      <td style="text-align: center">From moment gaze is locked on partner to moment gaze is detached from partner</td>
+      <td style="text-align: center">None</td>
+      <td style="text-align: center">Gaze</td>
+      <td style="text-align: center">Gaze</td>
+      <td style="text-align: center">Tier names must contain the indicators R1 for the first rater and R2 for the second rater for calculating interrater agreement with EasyDIAg (see section 6 of GApS manual)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center">ID-2_Gesture_R1</td>
+      <td style="text-align: center">Gesture Type</td>
+      <td style="text-align: center">See Table 2 for gesture types definitions</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">ID_2 gesture segment length</td>
+      <td style="text-align: center">From onset of movement to produce gesture from a neutral position, to onset of retraction from gesture held position to go back to neutral position (or to start a new gesture, or end of gesture action)</td>
+      <td style="text-align: center">None</td>
+      <td style="text-align: center">Gesture</td>
+      <td style="text-align: center">Gesture</td>
+      <td style="text-align: center">Tier names must contain the indicators R1 for the first rater and R2 for the second rater for calculating interrater agreement with EasyDIAg (see section 6 of GApS manual)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center">ID_2_Gest_Mod</td>
+      <td style="text-align: center">Sensory modality of gesture type</td>
+      <td style="text-align: center">Silent-visible, Tactile or Audible</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">ID_2 gesture segment length</td>
+      <td style="text-align: center">ID_2 gesture segment duration</td>
+      <td style="text-align: center">ID_2_gesture</td>
+      <td style="text-align: center">Modality</td>
+      <td style="text-align: center">Modality</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center">ID-2 _Gesture_amplitude_R1</td>
+      <td style="text-align: center">Amplitude of gesture in space</td>
+      <td style="text-align: center">Low, Medium, High; NA. See list of amplitudes definition for each gesture of repertoire (in preparation for manuscript)</td>
+      <td style="text-align: center">Low= minimum amplitude; medium= intermediate amplitude; High: maximum amplitude</td>
+      <td style="text-align: center">ID_2 gesture segment length</td>
+      <td style="text-align: center">ID_2 gesture segment duration</td>
+      <td style="text-align: center">ID_2_gesture</td>
+      <td style="text-align: center">Amplitude</td>
+      <td style="text-align: center">Amplitude</td>
+      <td style="text-align: center">Tier names must contain the indicators R1 for the first rater and R2 for the second rater for calculating interrater agreement with EasyDIAg (see section 6 of GApS manual)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center">ID_2_Persistence</td>
+      <td style="text-align: center">Yes/No (0/1)</td>
+      <td style="text-align: center">0;1</td>
+      <td style="text-align: center">If ID_2 gesture is repetition of first ID_2_gesture produced in sequence= 1; if ID_2 gesture is different from first ID_2_gesture produced in sequence= 0; if ID_2 gesture is repetition of another gesture than first gesture produced in sequence= no annotation</td>
+      <td style="text-align: center">ID_2  gesture segment length</td>
+      <td style="text-align: center">ID_2 gesture segment duration</td>
+      <td style="text-align: center">ID_2_gesture</td>
+      <td style="text-align: center">Presence</td>
+      <td style="text-align: center">Presence</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center">ID_2_Elaboration</td>
+      <td style="text-align: center">Yes/No (0/1)</td>
+      <td style="text-align: center">0;1</td>
+      <td style="text-align: center">If ID_2 gesture is repetition of first ID_2_gesture produced in sequence= 0 if ID_2 gesture is different from first ID_2_gesture produced in sequence= 1</td>
+      <td style="text-align: center">ID_2 gesture segment length</td>
+      <td style="text-align: center">ID_2 gesture segment duration</td>
+      <td style="text-align: center">ID_2_gesture</td>
+      <td style="text-align: center">Presence</td>
+      <td style="text-align: center">Presence</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center">ID_2_overlapping_Gesture_1_R1</td>
+      <td style="text-align: center">Gesture Type</td>
+      <td style="text-align: center">See Table 2 for gesture types definitions</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">Gesture segment length</td>
+      <td style="text-align: center">From onset of movement to produce gesture from a neutral position, to onset of retraction from gesture held position to go back to neutral position (or to start a new gesture, or end of gesture action)</td>
+      <td style="text-align: center">None</td>
+      <td style="text-align: center">Gesture</td>
+      <td style="text-align: center">Gesture</td>
+      <td style="text-align: center">Tier names must contain the indicators R1 for the first rater and R2 for the second rater for calculating interrater agreement with EasyDIAg (see section 6 of GApS manual)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center">ID_2 overlapping_Gesture_2_R1</td>
+      <td style="text-align: center">Gesture Type</td>
+      <td style="text-align: center">See Table 2 for gesture types definitions</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">Gesture segment length</td>
+      <td style="text-align: center">From onset of movement to produce gesture from a neutral position, to onset of retraction from gesture held position to go back to neutral position (or to start a new gesture, or end of gesture action)</td>
+      <td style="text-align: center">None</td>
+      <td style="text-align: center">Gesture</td>
+      <td style="text-align: center">Gesture</td>
+      <td style="text-align: center">Tier names must contain the indicators R1 for the first rater and R2 for the second rater for calculating interrater agreement with EasyDIAg (see section 6 of GApS manual)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center">ID-2 _Body_signal_R1</td>
+      <td style="text-align: center">Body signal type</td>
+      <td style="text-align: center">See Table 3 for Body signal types definitions</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">Body signal segment length</td>
+      <td style="text-align: center">From onset of movement to produce body signal to onset of movement to end body signal</td>
+      <td style="text-align: center">None</td>
+      <td style="text-align: center">Body_signal</td>
+      <td style="text-align: center">Body_Signal</td>
+      <td style="text-align: center">Tier names must contain the indicators R1 for the first rater and R2 for the second rater for calculating interrater agreement with EasyDIAg (see section 6 of GApS manual)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center">ID_2 Vocalisation_R1</td>
+      <td style="text-align: center">Vocalization Type</td>
+      <td style="text-align: center">See Table 4 for vocalisation types definitions</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">Vocalisation segment length</td>
+      <td style="text-align: center">From onset of vocalisation production to end of vocalisation production</td>
+      <td style="text-align: center">None</td>
+      <td style="text-align: center">Vocalisation</td>
+      <td style="text-align: center">Vocalisation</td>
+      <td style="text-align: center">Tier names must contain the indicators R1 for the first rater and R2 for the second rater for calculating interrater agreement with EasyDIAg (see section 6 of GApS manual)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center">ID_2 Facial_Expression_R1</td>
+      <td style="text-align: center">Facial expression type</td>
+      <td style="text-align: center">See Table 5 for Facial expression types definitions</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">ID_2 Facial expression segment length</td>
+      <td style="text-align: center">From onset of facial movements to produce facial expression, to end od facial expression</td>
+      <td style="text-align: center">None</td>
+      <td style="text-align: center">Facial_expression</td>
+      <td style="text-align: center">Facial_expression</td>
+      <td style="text-align: center">Tier names must contain the indicators R1 for the first rater and R2 for the second rater for calculating interrater agreement with EasyDIAg (see section 6 of GApS manual)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center">ID_2_Body part_R1</td>
+      <td style="text-align: center">Recipient’s body touched by ID_1 tactile gesture</td>
+      <td style="text-align: center">Arm; Back; Breast; Face: Fit; Genitals; Hand; Head; Hind; Hip; Leg; Shoulder; Stomach; Wrist; Out_of_Sight</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">ID_2 gesture segment length</td>
+      <td style="text-align: center">ID_1 gesture segment duration</td>
+      <td style="text-align: center">None</td>
+      <td style="text-align: center">Recipient_body_parts</td>
+      <td style="text-align: center">Recipient_body_parts</td>
+      <td style="text-align: center">Tier names must contain the indicators R1 for the first rater and R2 for the second rater for calculating interrater agreement with EasyDIAg (see section 6 of GApS manual)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center">ID_2 Behavioral_response_R1</td>
+      <td style="text-align: center">Behaviour type performed in response to signal produced by ID_1</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">Behaviour segment length</td>
+      <td style="text-align: center">From onset of movement typical of the behaviour to moment behaviour is achieved</td>
+      <td style="text-align: center">None</td>
+      <td style="text-align: center">None</td>
+      <td style="text-align: center">None</td>
+      <td style="text-align: center">Tier names must contain the indicators R1 for the first rater and R2 for the second rater for calculating interrater agreement with EasyDIAg (see section 6 of GApS manual)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center">ID-2_Signal_function</td>
+      <td style="text-align: center">Function of signal based on ASO (see Hobaiter and Byrne, 2014 for description of ASO)</td>
+      <td style="text-align: center">Attention getter; Leave_taking; Follow:invitation, Contact_invitation; Chase_invitation; Play_contact_invitation; Sex_invitation; Grooming_invitation; Stop:request; Move_away_request</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">Corresponding signal segment length</td>
+      <td style="text-align: center">Corresponding signal segment duration</td>
+      <td style="text-align: center">None</td>
+      <td style="text-align: center">Function</td>
+      <td style="text-align: center">Function</td>
+      <td style="text-align: center">Based on ASO (Apparently Stisfactory Outcome, see Hobaiter eand Byrne, 2014), if behavioural outcome appears satisfactory, the signaller should stop signaling. The function of signals can be inferred at the end of the bout.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center">ID_2 _Activity_Role</td>
+      <td style="text-align: center">Role of ID_2 in interaction</td>
+      <td style="text-align: center">Groomer; groomee; chaser; chasee; leader; follower</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">3sec</td>
+      <td style="text-align: center">Fixed 3sec segment (from onset of movement typical of the activity; e.g., when first movement typical of sex, play, or grooming starts )</td>
+      <td style="text-align: center">None</td>
+      <td style="text-align: center">Role</td>
+      <td style="text-align: center">Role</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Dyad</td>
       <td style="text-align: center"> </td>
       <td style="text-align: center"> </td>
       <td style="text-align: center"> </td>
@@ -249,6 +852,60 @@
       <td style="text-align: center"> </td>
       <td style="text-align: center"> </td>
       <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center">Mutual_gaze</td>
+      <td style="text-align: center">ID_1 and ID_2 gaze directly at each other simultaneously</td>
+      <td style="text-align: center">1</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">Length of overlap between ID_1 Gaze orientation and ID_2_Gaze orientation segments</td>
+      <td style="text-align: center">From beginning of overlap between segments of ID_1_Gaze_orientation and ID_2_Gaze_orientation, to end of overlap between segments of ID_1_Gaze_orientation and ID_2_Gaze_orientation</td>
+      <td style="text-align: center">None</td>
+      <td style="text-align: center">None</td>
+      <td style="text-align: center">None</td>
+      <td style="text-align: center">See section 2.2.4.4. of GApS manual for automatically creating overlapping segments</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center">Spatial Distance_R1</td>
+      <td style="text-align: center">Spatial distance between ID_1 and ID_2</td>
+      <td style="text-align: center">0;1;2</td>
+      <td style="text-align: center">0=physical contact, 1=at arm length distance; 2= beyond arm-length distance</td>
+      <td style="text-align: center">Corresponding gesture segment length</td>
+      <td style="text-align: center">Corresponding gesture segment duration</td>
+      <td style="text-align: center">None</td>
+      <td style="text-align: center">None</td>
+      <td style="text-align: center">None</td>
+      <td style="text-align: center">Tier names must contain the indicators R1 for the first rater and R2 for the second rater for calculating interrater agreement with EasyDIAg (see section 6 of GApS manual)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center">Role_Reversal</td>
+      <td style="text-align: center">Activity roles reversal</td>
+      <td style="text-align: center">1</td>
+      <td style="text-align: center">From groomer to groomee or vice versa, from chaser to chasee and vice versa, from leader to follower and vice versa.</td>
+      <td style="text-align: center">3ms</td>
+      <td style="text-align: center">Fixed 3sec segment (from onset of movement typical of the activity; e.g., when first movement typical of sex, play, or grooming starts , when role changes</td>
+      <td style="text-align: center">None</td>
+      <td style="text-align: center">None</td>
+      <td style="text-align: center">None</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center">Turn_taking</td>
+      <td style="text-align: center">Communicative turn-taking between ID_1 and ID_2</td>
+      <td style="text-align: center">1</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">Length of gap between end of ID-1 (or ID_2, depending on whose signal came first) signal and beginning of ID-2 (or ID_1, depending on whose signal came first) signal</td>
+      <td style="text-align: center">From end of segment ID_1_gesture, to start segment ID_2, and vice versa depending on sequential order of gesture</td>
+      <td style="text-align: center">None</td>
+      <td style="text-align: center">Presence</td>
+      <td style="text-align: center">Presence</td>
+      <td style="text-align: center"><img src="/assets/images/Turn_taking.png" alt="alt text" /></td>
     </tr>
   </tbody>
 </table>
