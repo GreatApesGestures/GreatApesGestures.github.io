@@ -9,8 +9,12 @@ main:
     url: /definition-of-signals/
   - title: "ELAN finder"
     url: /elan-finder/
-  - title: "Layout"
-    url: /00-layout/
+  - title: "Interrater observer reliability test with EasyDIAG"
+    url: /iot-test/
+  - title: "References"
+    url: /references/
+  # - title: "Layout"
+  #   url: /00-layout/
 
 docs:
   - title: Get started with ELAN
@@ -26,9 +30,36 @@ docs:
         url: /create-controlled-vocabularies/
       - title: "Create annotations"
         url: /create-annotations/
+      # - title: <big><p>&rarr; working modes</p></big>
+      #   url: /create-annotations/#working-modes
+      # - title: <big><p>&rarr; create segments</p></big>
+      #   url: /create-annotations/#create-segments-time-intervals
+      # - title: <big><p>&rarr; create annotations</p></big>
+      #   url: /create-annotations/#create-annotations
+      # - title: <big><p>&rarr; annotations from overlapping annotations</p></big>
+      #   url: /create-annotations/#create-annotations-from-overlapping-annotations
+      - title: <p>&rarr; working modes</p>
+        url: /create-annotations/#working-modes
+      - title: <p>&rarr; create segments</p>
+        url: /create-annotations/#create-segments-time-intervals
+      - title: <p>&rarr; create annotations</p>
+        url: /create-annotations/#create-annotations
+      - title: <p>&rarr; annotations from overlapping annotations</p>
+        url: /create-annotations/#create-annotations-from-overlapping-annotations
       - title: "Create a coding template"
         url: /create-a-coding-template/
       - title: "Export annotated file in Excel"
         url: /export-file/
+
+signals:
+  - title: "Ape gestures"
+    url: /definition-of-signals/#ape-gestures
+  - title: "Ape body signals"
+    url: /definition-of-signals/#ape-body-signals
+  - title: "Ape vocalisations"
+    url: /definition-of-signals/#ape-vocalisations
+  - title: "Ape facial expressions"
+    url: /definition-of-signals/#ape-facial-expressions
+    
 
         

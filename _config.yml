@@ -1,8 +1,11 @@
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+minimal_mistakes_skin: "default"
 # theme: minimal-mistakes-jekyll
-title: GApS - A Coding Scheme for Great Apes Signals in ELAN
+title: GApS
+subtitle: A Coding Scheme for Great Apes Signals in ELAN
 authors: Emilie Genty, Michael Fuchs
 description: This is our latest coding scheme release
+logo: /assets/images/logo.png
 
 doi: <a href="https://zenodo.org/badge/latestdoi/571517799"><img src="https://zenodo.org/badge/571517799.svg" alt="DOI"></a>
 
