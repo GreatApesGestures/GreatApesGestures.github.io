@@ -13,8 +13,8 @@ main:
     url: /iot-test/
   - title: "References"
     url: /references/
-  - title: "Layout"
-    url: /00-layout/
+  # - title: "Layout"
+  #   url: /00-layout/
 
 docs:
   - title: Get started with ELAN

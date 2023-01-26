@@ -26,5 +26,20 @@ Please visit [our website](https://greatapesgestures.github.io) for all informat
 
 ## Reference
 
+If you use this material, please cite it as below.
+
+Genty, E., & Fuchs, M. (2023). GApS: A Coding Scheme for Great Apes Signals in ELAN (Version v1.0.2). https://doi.org/10.5281/zenodo.7385461
+
+```BibTeX
+@manual{Genty_GApS_A_Coding_2023,
+        author = {Genty, Emilie and Fuchs, Michael},
+        doi = {10.5281/zenodo.7385461},
+        month = {1},
+        title = {{GApS: A Coding Scheme for Great Apes Signals in ELAN}},
+        url = {https://greatapesgestures.github.io},
+        year = {2023}
+}
+```
+
 <a href="https://zenodo.org/badge/latestdoi/571517799"><img src="https://zenodo.org/badge/571517799.svg" alt="DOI"></a>
 
