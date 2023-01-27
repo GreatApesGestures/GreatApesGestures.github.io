@@ -41,5 +41,6 @@ Genty, E., & Fuchs, M. (2023). GApS: A Coding Scheme for Great Apes Signals in E
 }
 ```
 
-<a href="https://zenodo.org/badge/latestdoi/571517799"><img src="https://zenodo.org/badge/571517799.svg" alt="DOI"></a>
+<a href="https://doi.org/10.5281/zenodo.7573664"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.7573664.svg" alt="DOI"></a>
+
 

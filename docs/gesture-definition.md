@@ -17,5 +17,6 @@ We define a gesture as:
       <br>
       3. **persisting** (by repeating the same signal) and/or **elaborating** (by using a new signal or combination of signals with the same function).<br>
 
+![Alt text](../assets/images/Gesture.png)
 
 Body signals are defined in similar terms for physical movements or postures of the whole body (that can be part of the species typical repertoire such as sexual invitation postures or display behaviours). For each gesture (and body signal), we determined the sensory modality as ‘silent-visible’ (signal is silent and as such only visible if recipient is visually attentive), ‘audible’ (signal is visible and audible, thus can be perceived even if recipient is not visually attentive) or ‘tactile’ (signal is performed while touching the recipient’s body, thus can be perceived even if recipient is not visually attentive). (Genty et al. 2019; Byrne et al., 2017)

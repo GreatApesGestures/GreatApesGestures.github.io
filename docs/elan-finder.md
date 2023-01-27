@@ -18,9 +18,6 @@ Its simple graphical user interface (GUI) provides you with a rapid way to
   
 any of your ELAN annotations across your entire database.
 
-<!-- 
-you can now directly access and preview all your ELAN data across all videos of your database. Additionally, you can export all of your ELAN database in one click in an spreadsheet format in one This can, which can save you valuable time on researching your ELAN database   -->
-
 ## Demo
 ![Alt text](../assets/videos/demo.gif)
 
@@ -30,15 +27,19 @@ All source code is made publicly available at [https://github.com/MitchFuchs/ela
 
 ## Prerequisites
 
+#### Operating System (OS)
 The current software has been tested on 
 
   * Ubuntu 20.04
   * Windows 10
 
+#### Software
+  * install [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+  * install [conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html#)
 
 ## Installation
 
-#### On Linux
+#### On Linux and Windows
 
 Open your Terminal and execute the commands listed below.
 
@@ -64,10 +65,12 @@ Start the GUI<br>
 
 Once the GUI has correctly been launched, you are all set! 
 
+![alt text](../assets/images/elan_finder_1.JPG)
+
   * First click on 'Browse' and select the folder containing your ELAN database
   * Take a sip of coffee - your annotations are being processed, it will take a few seconds. Breathe. 
   * Select a Tier type in the first dropdown list
-  * Select a Annotation value in the second dropdown list
+  * Select an Annotation value in the second dropdown list
 
 The upper right panel displays all annotations in your database that meet your criteria
 
@@ -85,6 +88,8 @@ Other functionalities
   * Click on 'Open in ELAN' to open the currently selected annotation in ELAN
   * Click on 'Stop playing' to stop the preview
   * Move the cursor left/right to slow down/speed up the preview speed
+
+![alt text](../assets/images/elan_finder_2.JPG)
 
  
 ## Support

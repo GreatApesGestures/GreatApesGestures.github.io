@@ -5,12 +5,10 @@ main:
     url: /coding-ape-signals/
   - title: "GApS Coding scheme"
     url: /gaps-coding-scheme/
-  - title: "Definition of signals"
-    url: /definition-of-signals/
+  - title: "Ape signals description"
+    url: /ape-signals-description/
   - title: "ELAN finder"
     url: /elan-finder/
-  - title: "Interrater observer reliability test with EasyDIAG"
-    url: /iot-test/
   - title: "References"
     url: /references/
   # - title: "Layout"
@@ -50,16 +48,18 @@ docs:
         url: /create-a-coding-template/
       - title: "Export annotated file in Excel"
         url: /export-file/
+      - title: "Interrater reliability test with EasyDIAG"
+        url: /irr-test/
 
 signals:
   - title: "Ape gestures"
-    url: /definition-of-signals/#ape-gestures
+    url: /ape-signals-description/#ape-gestures
   - title: "Ape body signals"
-    url: /definition-of-signals/#ape-body-signals
+    url: /ape-signals-description/#ape-body-signals
   - title: "Ape vocalisations"
-    url: /definition-of-signals/#ape-vocalisations
+    url: /ape-signals-description/#ape-vocalisations
   - title: "Ape facial expressions"
-    url: /definition-of-signals/#ape-facial-expressions
+    url: /ape-signals-description/#ape-facial-expressions
     
 elan_finder:
   - title: "What is it?"

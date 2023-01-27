@@ -5,7 +5,7 @@ permalink: /gaps-coding-scheme/
 classes: wide
 ---
 
-In Table 1 we provide a description of all the tiers (variables) contained in the GApS coding template (GApS_coding template.etf) and describe their different attributes.
+In the table below, we provide a description of all the tiers (variables) contained in the GApS coding template (GApS_coding template.etf) and describe their different attributes.
 
 When you create your own template, you can decide to include all variables in the Elan template or to add some variables related to the dyad and the interacting individuals such as: study species, study site, ID1-ID2 Dyad name, dyad rank difference, Dyad DSI index, signal function (based on ASO), sex (Male, Female), age class (Subadult, Adult,…),… post-hoc directly in the Excel output file. 
 
