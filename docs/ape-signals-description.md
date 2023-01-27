@@ -13,6 +13,8 @@ In the following tables you will a description and some illustrations of the ape
 
 Gestures in the following table were illustrated by Sidney Maffini.
 
+(see Byrne et al. 2017 for a comparison of gesture repertoires across ape species)
+
 | Gesture | Modality <br> A=audible <br> <nobr>S=silent visible</nobr> <br> T=tactile| Description | Illustration
 |:--------|:-------:|:-------:|:-------:|
 |Beckoning arm|S|Stretching arm toward another, followed by a sideways sweeping movement of the arm toward the self and ending with a twirl of the wrist from palm upward to downward, indicates invitation to approach and follow| ![alt text](/assets/images/signals/Beckoning%20arm.png) |
