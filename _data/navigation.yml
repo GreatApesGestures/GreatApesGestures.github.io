@@ -9,6 +9,8 @@ main:
     url: /ape-signals-description/
   - title: "ELAN finder"
     url: /elan-finder/
+  - title: "Download"
+    url: /download/
   - title: "References"
     url: /references/
   # - title: "Layout"
