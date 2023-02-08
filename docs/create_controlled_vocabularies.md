@@ -8,6 +8,8 @@ sidebar:
 
 A **controlled vocabulary** (CV) is a set of predefined and limited annotations for a specific variable (tier). When annotating, this controlled vocabulary allows the user to select a value from a predefined list (drop-down menu), thus limiting annotation errors or typos (for instance, when annotating a segment in the ‘Gesture’ tier, you could select from a drop-down list of predefined values the correct gesture, e.g., as Raise, Reach, etc.). 
 
+![Alt text](../assets/videos/cv.gif)
+
 To create a new controlled vocabulary (CV):
 
   * Go to Edit > Edit Controlled Vocabularies

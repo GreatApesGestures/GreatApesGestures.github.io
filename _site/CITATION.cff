@@ -1,28 +1,28 @@
-cff-version: 1.0.0
+cff-version: 1.0.1
 message: "If you use this work, please cite it as below."
 authors:
-  - family-names: Genty
-    given-names: Emilie
-    orcid: 0000-0003-2461-2442
-  - family-names: Fuchs
-    given-names: Michael
-    orcid: 0000-0002-8937-1427
-title: Coding ape signals with ELAN
-version: v1.0.1-beta
-date-released: 2022-12-01
-doi: 10.5281/zenodo.7385461
-preferred-citation:
-  type: manual
-  authors:
   - family-names: "Genty"
     given-names: "Emilie"
     orcid: "https://orcid.org/0000-0003-2461-2442"
   - family-names: "Fuchs"
     given-names: "Michael"
     orcid: "https://orcid.org/0000-0002-8937-1427"
-  doi: "10.5281/zenodo.7385461"
-  title: "Coding ape signals with ELAN"
-  version: v1.0.0
-  date-released: 2022-12-01
+title: "GApS: A Coding Scheme for Great Apes Signals in ELAN"
+version: v1.0.2
+date-released: 2023-01-16
+doi: 10.5281/zenodo.7385461
+url: "https://greatapesgestures.github.io"
+preferred-citation:
+  type: manual
+  authors:
+    - family-names: "Genty"
+      given-names: "Emilie"
+      orcid: "https://orcid.org/0000-0003-2461-2442"
+    - family-names: "Fuchs"
+      given-names: "Michael"
+      orcid: "https://orcid.org/0000-0002-8937-1427"
+  title: "GApS: A Coding Scheme for Great Apes Signals in ELAN"
+  version: v1.0.2
+  date-released: 2023-01-16
+  doi: 10.5281/zenodo.7385461
   url: "https://greatapesgestures.github.io"
-

@@ -8,7 +8,9 @@ sidebar:
 
 ## Export annotated file as Excel output file
 
-Once you are done with creating your annotation file, you can export it as an Excel output file for further analysis. (see example [here](../assets/download/GApS_Excel_output_Example.txt) )
+Once you are done with creating your annotation file, you can export it as an Excel output file for further analysis. (see example [here](../assets/download/GApS_Excel_output_Example.xls) )
+
+![Alt text](../assets/videos/export.gif)
 
 To export your annotated file:
 
@@ -55,7 +57,7 @@ To do so:
 
 Once your annotated files have been exported as a Tab-delimited Text file in the destination folder, you can open it with Excel.
 
-Your Excel output file might require some post-hoc grooming to make it ready for further analysis. For instance, in our template, the general information related to the file, e.g., study site, species, dyad, etc. are annotated as a 3sec fixed-interval annotation, and as a consequence, these annotations will only appear in the first few rows of the corresponding columns. These annotations will thus have to be copied down across the other rows of the corresponding interaction. You might also want to give a number to the different interactions that have been annotated. You might want to copy manually the Bout, Sequence, and Combination numbers on the rows corresponding to the signals including in those (see example [here](../assets/download/GApS_Excel_output_Example.txt)) for an illustration). All these little manipulations will depend on your research question and the type of analysis you wish to perform
+Your Excel output file might require some post-hoc grooming to make it ready for further analysis. For instance, in our template, the general information related to the file, e.g., study site, species, dyad, etc. are annotated as a 3sec fixed-interval annotation, and as a consequence, these annotations will only appear in the first few rows of the corresponding columns. These annotations will thus have to be copied down across the other rows of the corresponding interaction. You might also want to give a number to the different interactions that have been annotated. You might want to copy manually the Bout, Sequence, and Combination numbers on the rows corresponding to the signals including in those (see example [here](../assets/download/GApS_Excel_output_Example.xls)) for an illustration). All these little manipulations will depend on your research question and the type of analysis you wish to perform
 
 
 

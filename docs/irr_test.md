@@ -6,7 +6,7 @@ sidebar:
     nav: "docs"
 ---
 
-From your annotated files, you can assess inter-rater agreement between 2 coders by analyzing a combination of both presence and duration of specific annotations, directly from your Elan coded file by using the EasyDIAg software package (Holle and Rein, 2015). The software allows to assess the agreement of raters in ELAN by detecting whether the raters agreed on an annotation value and duration. To reach agreement, the annotation values have to be identical and the duration has to overlap by at least 60%. The reliability agreement is thus based on a combined measure of annotation value and duration. 
+From your annotated files, you can assess inter-rater agreement between 2 coders by analyzing a combination of both presence and duration of specific annotations, directly from your Elan coded file by using the EasyDIAg software package.[^1] The software allows to assess the agreement of raters in ELAN by detecting whether the raters agreed on an annotation value and duration. To reach agreement, the annotation values have to be identical and the duration has to overlap by at least 60%. The reliability agreement is thus based on a combined measure of annotation value and duration. 
 
 To do so:
   * The annotations from the two raters should be contained in the same annotation file.
@@ -15,3 +15,5 @@ To do so:
   * Only ‘include file name column’, ‘Begin time’, ‘End time’ and ‘msec’ should be ticked, everything else should be unticked. Indeed, the EasyDIAg toolbox expects a tab-delimited text file where the first column specifies the tier, the second and third columns the beginning and the end of the annotation (in msec), the fourth column the annotation category, and the last fifth column the file name (that specifies the rater ID). Tier names (in column 1) must contain the indicators R1 for the first rater and R2 for the second rater! If these indicators are not contained in the tier names the toolbox is not able to determine which annotations belong to which annotator. The order is not important but should be consistent throughout the files which ELAN takes care of. 
   
 For further instructions, please refer to the EasyDIAG tutorial.
+
+[^1]: Holle H., Rein R. (2015) EasyDIAg: A tool for easy determination of interrater agreement. Behavioral Research 47, 837–847, https://doi.org/10.3758/s13428-014-0506-7.

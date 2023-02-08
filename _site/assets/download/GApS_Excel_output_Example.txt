@@ -1,0 +1,77 @@
+Interaction_number	Clip_name	Study_Site	Species	Dyad_name	Dyad-DSI	ID_1_ID_2_Rank_Difference	ID_1	ID-2	Begin Time - msec	End Time - msec	Duration - msec	Activity_type	ID-1_Activity_role	ID_2_Activity_role	Role_Reversal	ID_1_Gaze_orientation_R1	ID-2_Gaze_orientation_R1	Mutual_gaze	ID_1_Bout_number	ID_1_Sequence_number	ID_1_Combination_number	ID_1_Persistence	ID_1_Elaboration	ID_1_Goal_reached	ID_1_Gesture_R1	ID_1_Gesture_amplitude_R1	ID_1_Gest_Mod	ID_1_overlapping_Gesture_1_R1	ID_1_overlapping_Gesture_2_R1	ID_1_Body_signal_R1	ID_1_Vocalisation_R1	ID_1_Facial_Expression_R1	ID_1_Signal_function	ID_2_Behavioral_response_R1	ID_2_Body_part_R1	ID_2_Bout_number	ID_2_Sequence_number	ID_2_Combination_number	ID_2_Persistence	ID_2_Elaboration	ID_2_Goal_reached	ID-2_Gesture_R1	ID_2_Gesture _amplitude_R1	ID_2_Gest_Mod	ID_2_overlapping_Gesture_1_R1	ID_2_overlapping_Gesture_2_R1	ID_2_Body_signal_R1	ID-2_Vocalisation_R1	ID_2_Facial_expression_R1	ID_2_Signal_function	ID_1_Behavioral_response_R1	ID_1_Body_part_R1	Spatial_Distance_R1	Turn_taking
+1	09.01.17_Example GApS coding1_Sex_KZ_KLN_R1	LYB	Bonobos	KLN@KZ	1.75	-0.71	KZ	KLN	160	1480	1320					Partner																																						
+1	09.01.17_Example GApS coding1_Sex_KZ_KLN_R1	LYB	Bonobos	KLN@KZ	1.75	-0.71	KZ	KLN	160	3160	3000		Leader	Follower																																								
+1	09.01.17_Example GApS coding1_Sex_KZ_KLN_R1	LYB	Bonobos	KLN@KZ	1.75	-0.71	KZ	KLN	263	1222	959										1									Bipedal_present																								
+1	09.01.17_Example GApS coding1_Sex_KZ_KLN_R1	LYB	Bonobos	KLN@KZ	1.75	-0.71	KZ	KLN	267	1210	943								1	1	1				Out_arm	High	Silent_Visible						Sex_invitation																				1	
+1	09.01.17_Example GApS coding1_Sex_KZ_KLN_R1	LYB	Bonobos	KLN@KZ	1.75	-0.71	KZ	KLN	461	1014	553						Partner																																					
+1	09.01.17_Example GApS coding1_Sex_KZ_KLN_R1	LYB	Bonobos	KLN@KZ	1.75	-0.71	KZ	KLN	463	1014	551							1	1																																			
+1	09.01.17_Example GApS coding1_Sex_KZ_KLN_R1	LYB	Bonobos	KLN@KZ	1.75	-0.71	KZ	KLN	1429	1978	549									1		0	1		Beckoning_arm	Low	Silent_Visible						Follow_invitation																				2	
+1	09.01.17_Example GApS coding1_Sex_KZ_KLN_R1	LYB	Bonobos	KLN@KZ	1.75	-0.71	KZ	KLN	1587	1906	319					Partner																																						
+1	09.01.17_Example GApS coding1_Sex_KZ_KLN_R1	LYB	Bonobos	KLN@KZ	1.75	-0.71	KZ	KLN	1640	4105	2465																							Follow_partner																				
+1	09.01.17_Example GApS coding1_Sex_KZ_KLN_R1	LYB	Bonobos	KLN@KZ	1.75	-0.71	KZ	KLN	2357	2681	324					Partner																																						
+1	09.01.17_Example GApS coding1_Sex_KZ_KLN_R1	LYB	Bonobos	KLN@KZ	1.75	-0.71	KZ	KLN	3372	3532	160					Partner																																						
+1	09.01.17_Example GApS coding1_Sex_KZ_KLN_R1	LYB	Bonobos	KLN@KZ	1.75	-0.71	KZ	KLN	3687	4271	584						Partner																																					
+1	09.01.17_Example GApS coding1_Sex_KZ_KLN_R1	LYB	Bonobos	KLN@KZ	1.75	-0.71	KZ	KLN	4451	4855	404					Partner																																						
+1	09.01.17_Example GApS coding1_Sex_KZ_KLN_R1	LYB	Bonobos	KLN@KZ	1.75	-0.71	KZ	KLN	5297	5622	325					Partner																																						
+1	09.01.17_Example GApS coding1_Sex_KZ_KLN_R1	LYB	Bonobos	KLN@KZ	1.75	-0.71	KZ	KLN	6132	8272	2140						Partner																																					
+1	09.01.17_Example GApS coding1_Sex_KZ_KLN_R1	LYB	Bonobos	KLN@KZ	1.75	-0.71	KZ	KLN	6596	8300	1704					Gaze_back																																						
+1	09.01.17_Example GApS coding1_Sex_KZ_KLN_R1	LYB	Bonobos	KLN@KZ	1.75	-0.71	KZ	KLN	6602	8279	1677							1																																				
+1	09.01.17_Example GApS coding1_Sex_KZ_KLN_R1	LYB	Bonobos	KLN@KZ	1.75	-0.71	KZ	KLN	7447	8111	664								1											Concave_back_present			Sex_invitation																					
+1	09.01.17_Example GApS coding1_Sex_KZ_KLN_R1	LYB	Bonobos	KLN@KZ	1.75	-0.71	KZ	KLN	7852	17153	9301																							Follow_partner																				
+1	09.01.17_Example GApS coding1_Sex_KZ_KLN_R1	LYB	Bonobos	KLN@KZ	1.75	-0.71	KZ	KLN	8568	9178	610					Partner																																						
+1	09.01.17_Example GApS coding1_Sex_KZ_KLN_R1	LYB	Bonobos	KLN@KZ	1.75	-0.71	KZ	KLN	9836	11544	1708						Partner																																					
+1	09.01.17_Example GApS coding1_Sex_KZ_KLN_R1	LYB	Bonobos	KLN@KZ	1.75	-0.71	KZ	KLN	10252	10828	576					Partner																																						
+1	09.01.17_Example GApS coding1_Sex_KZ_KLN_R1	LYB	Bonobos	KLN@KZ	1.75	-0.71	KZ	KLN	10256	10832	576							1																																				
+1	09.01.17_Example GApS coding1_Sex_KZ_KLN_R1	LYB	Bonobos	KLN@KZ	1.75	-0.71	KZ	KLN	11871	12046	175					Gaze_back																																						
+1	09.01.17_Example GApS coding1_Sex_KZ_KLN_R1	LYB	Bonobos	KLN@KZ	1.75	-0.71	KZ	KLN	13196	15320	2124						Partner																																					
+1	09.01.17_Example GApS coding1_Sex_KZ_KLN_R1	LYB	Bonobos	KLN@KZ	1.75	-0.71	KZ	KLN	14201	14894	693							1																																				
+1	09.01.17_Example GApS coding1_Sex_KZ_KLN_R1	LYB	Bonobos	KLN@KZ	1.75	-0.71	KZ	KLN	14202	14891	689					Partner																																						
+1	09.01.17_Example GApS coding1_Sex_KZ_KLN_R1	LYB	Bonobos	KLN@KZ	1.75	-0.71	KZ	KLN	15214	15926	712					Partner																																						
+1	09.01.17_Example GApS coding1_Sex_KZ_KLN_R1	LYB	Bonobos	KLN@KZ	1.75	-0.71	KZ	KLN	15217	15330	113							1																																				
+1	09.01.17_Example GApS coding1_Sex_KZ_KLN_R1	LYB	Bonobos	KLN@KZ	1.75	-0.71	KZ	KLN	16287	16948	661					Partner																																						
+1	09.01.17_Example GApS coding1_Sex_KZ_KLN_R1	LYB	Bonobos	KLN@KZ	1.75	-0.71	KZ	KLN	16509	16948	439							1																																				
+1	09.01.17_Example GApS coding1_Sex_KZ_KLN_R1	LYB	Bonobos	KLN@KZ	1.75	-0.71	KZ	KLN	16509	17381	872						Partner																																					
+1	09.01.17_Example GApS coding1_Sex_KZ_KLN_R1	LYB	Bonobos	KLN@KZ	1.75	-0.71	KZ	KLN	16745	18124	1379																			Concave_back_present																								
+1	09.01.17_Example GApS coding1_Sex_KZ_KLN_R1	LYB	Bonobos	KLN@KZ	1.75	-0.71	KZ	KLN	16810	18030	1220								1		2																																	
+1	09.01.17_Example GApS coding1_Sex_KZ_KLN_R1	LYB	Bonobos	KLN@KZ	1.75	-0.71	KZ	KLN	16819	18049	1230								1		2				Stretch_over	Low	Silent_Visible						Sex_invitation																				1	
+1	09.01.17_Example GApS coding1_Sex_KZ_KLN_R1	LYB	Bonobos	KLN@KZ	1.75	-0.71	KZ	KLN	17153	18042	889																							Present_for_sex																				
+1	09.01.17_Example GApS coding1_Sex_KZ_KLN_R1	LYB	Bonobos	KLN@KZ	1.75	-0.71	KZ	KLN	18508	18776	268													1																														
+2	16.01.17_Example GAps coding2_Play_KU_CLB_R1	BSL	Chimpanzees	CLB@KU	-1.2	-1.3	CLB	KU	23	4833	4810	Chase_Play																																										
+2	16.01.17_Example GAps coding2_Play_KU_CLB_R1	BSL	Chimpanzees	CLB@KU	-1.2	-1.3	CLB	KU	27	946	919						Partner																																					
+2	16.01.17_Example GAps coding2_Play_KU_CLB_R1	BSL	Chimpanzees	CLB@KU	-1.2	-1.3	CLB	KU	96	3531	3435		Chasee																																									
+2	16.01.17_Example GAps coding2_Play_KU_CLB_R1	BSL	Chimpanzees	CLB@KU	-1.2	-1.3	CLB	KU	427	4525	4098																							Follow_partner																				
+2	16.01.17_Example GAps coding2_Play_KU_CLB_R1	BSL	Chimpanzees	CLB@KU	-1.2	-1.3	CLB	KU	585	4441	3856			Chaser																																								
+2	16.01.17_Example GAps coding2_Play_KU_CLB_R1	BSL	Chimpanzees	CLB@KU	-1.2	-1.3	CLB	KU	641	1760	1119					Partner																																						
+2	16.01.17_Example GAps coding2_Play_KU_CLB_R1	BSL	Chimpanzees	CLB@KU	-1.2	-1.3	CLB	KU	642	946	304							1																																				
+2	16.01.17_Example GAps coding2_Play_KU_CLB_R1	BSL	Chimpanzees	CLB@KU	-1.2	-1.3	CLB	KU	929	2193	1264								1		1											Open_mouth																						
+2	16.01.17_Example GAps coding2_Play_KU_CLB_R1	BSL	Chimpanzees	CLB@KU	-1.2	-1.3	CLB	KU	929	19269	18340																																											
+2	16.01.17_Example GAps coding2_Play_KU_CLB_R1	BSL	Chimpanzees	CLB@KU	-1.2	-1.3	CLB	KU	1054	2197	1143								1																																			
+2	16.01.17_Example GAps coding2_Play_KU_CLB_R1	BSL	Chimpanzees	CLB@KU	-1.2	-1.3	CLB	KU	1054	3319	2265										1									Gallop			Chase_invitation																					
+2	16.01.17_Example GAps coding2_Play_KU_CLB_R1	BSL	Chimpanzees	CLB@KU	-1.2	-1.3	CLB	KU	1688	2128	440						Partner																																					
+2	16.01.17_Example GAps coding2_Play_KU_CLB_R1	BSL	Chimpanzees	CLB@KU	-1.2	-1.3	CLB	KU	1690	1762	72							1																																				
+2	16.01.17_Example GAps coding2_Play_KU_CLB_R1	BSL	Chimpanzees	CLB@KU	-1.2	-1.3	CLB	KU	3609	3849	240					Partner																																						
+2	16.01.17_Example GAps coding2_Play_KU_CLB_R1	BSL	Chimpanzees	CLB@KU	-1.2	-1.3	CLB	KU	4936	5633	697					Partner																																						
+2	16.01.17_Example GAps coding2_Play_KU_CLB_R1	BSL	Chimpanzees	CLB@KU	-1.2	-1.3	CLB	KU	7169	8225	1056								1						Head_butt	NA	Tactile						Play_contact invitation		Hip																			
+2	16.01.17_Example GAps coding2_Play_KU_CLB_R1	BSL	Chimpanzees	CLB@KU	-1.2	-1.3	CLB	KU	7172	8227	1055																																										0	
+2	16.01.17_Example GAps coding2_Play_KU_CLB_R1	BSL	Chimpanzees	CLB@KU	-1.2	-1.3	CLB	KU	8227	10000	1773																																											1
+2	16.01.17_Example GAps coding2_Play_KU_CLB_R1	BSL	Chimpanzees	CLB@KU	-1.2	-1.3	CLB	KU	9095	9920	825																																										0	
+2	16.01.17_Example GAps coding2_Play_KU_CLB_R1	BSL	Chimpanzees	CLB@KU	-1.2	-1.3	CLB	KU	10019	11870	1851																									1						Push	High	Tactile						Stop_request		Head		
+2	16.01.17_Example GAps coding2_Play_KU_CLB_R1	BSL	Chimpanzees	CLB@KU	-1.2	-1.3	CLB	KU	10020	13485	3465																																										0	
+2	16.01.17_Example GAps coding2_Play_KU_CLB_R1	BSL	Chimpanzees	CLB@KU	-1.2	-1.3	CLB	KU	10335	13482	3147								1		2				Grab	High	Tactile						Stop_request		Hand																			
+2	16.01.17_Example GAps coding2_Play_KU_CLB_R1	BSL	Chimpanzees	CLB@KU	-1.2	-1.3	CLB	KU	10457	12740	2283						Partner																																					
+2	16.01.17_Example GAps coding2_Play_KU_CLB_R1	BSL	Chimpanzees	CLB@KU	-1.2	-1.3	CLB	KU	11860	12700	840																																											1
+2	16.01.17_Example GAps coding2_Play_KU_CLB_R1	BSL	Chimpanzees	CLB@KU	-1.2	-1.3	CLB	KU	12065	30657	18592																									1													Tight_lips					
+2	16.01.17_Example GAps coding2_Play_KU_CLB_R1	BSL	Chimpanzees	CLB@KU	-1.2	-1.3	CLB	KU	12540	12625	85					Partner																																						
+2	16.01.17_Example GAps coding2_Play_KU_CLB_R1	BSL	Chimpanzees	CLB@KU	-1.2	-1.3	CLB	KU	12542	12628	86							1			2																																	
+2	16.01.17_Example GAps coding2_Play_KU_CLB_R1	BSL	Chimpanzees	CLB@KU	-1.2	-1.3	CLB	KU	12711	16727	4016								1													Pout																						
+2	16.01.17_Example GAps coding2_Play_KU_CLB_R1	BSL	Chimpanzees	CLB@KU	-1.2	-1.3	CLB	KU	16420	16580	160																																											1
+2	16.01.17_Example GAps coding2_Play_KU_CLB_R1	BSL	Chimpanzees	CLB@KU	-1.2	-1.3	CLB	KU	16435	19291	2856																									1						Head_butt	High	Tactile						Leave-taking		Head		
+2	16.01.17_Example GAps coding2_Play_KU_CLB_R1	BSL	Chimpanzees	CLB@KU	-1.2	-1.3	CLB	KU	16438	19291	2853																																										0	
+2	16.01.17_Example GAps coding2_Play_KU_CLB_R1	BSL	Chimpanzees	CLB@KU	-1.2	-1.3	CLB	KU	16582	19268	2686								1						Head_butt	NA	Tactile						Leave-taking		Head																			
+2	16.01.17_Example GAps coding2_Play_KU_CLB_R1	BSL	Chimpanzees	CLB@KU	-1.2	-1.3	CLB	KU	19526	20137	611					Partner																																						
+2	16.01.17_Example GAps coding2_Play_KU_CLB_R1	BSL	Chimpanzees	CLB@KU	-1.2	-1.3	CLB	KU	19535	20100	565																																								Sits_down			
+2	16.01.17_Example GAps coding2_Play_KU_CLB_R1	BSL	Chimpanzees	CLB@KU	-1.2	-1.3	CLB	KU	19555	22555	3000													0																	1													
+2	16.01.17_Example GAps coding2_Play_KU_CLB_R1	BSL	Chimpanzees	CLB@KU	-1.2	-1.3	CLB	KU	30262	31323	1061					Partner																																						
+2	16.01.17_Example GAps coding2_Play_KU_CLB_R1	BSL	Chimpanzees	CLB@KU	-1.2	-1.3	CLB	KU	33696	34660	964					Partner																																						
+2	16.01.17_Example GAps coding2_Play_KU_CLB_R1	BSL	Chimpanzees	CLB@KU	-1.2	-1.3	CLB	KU	34370	34489	119						Partner																																					
+2	16.01.17_Example GAps coding2_Play_KU_CLB_R1	BSL	Chimpanzees	CLB@KU	-1.2	-1.3	CLB	KU	34372	34491	119							1																																				

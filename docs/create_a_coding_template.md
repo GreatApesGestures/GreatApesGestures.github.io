@@ -10,6 +10,8 @@ sidebar:
 
 A **template** is an annotation document that is not linked to any media file in particular, for which all tiers, tier types and controlled vocabularies have been preserved but that is empty of annotations.
 
+![Alt text](../assets/videos/save.gif)
+
 To create a template file:
 
   * Go to menu File > Save as Template

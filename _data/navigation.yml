@@ -11,8 +11,8 @@ main:
     url: /elan-finder/
   - title: "Download"
     url: /download/
-  - title: "References"
-    url: /references/
+  # - title: "References"
+  #   url: /references/
   # - title: "Layout"
   #   url: /00-layout/
 
@@ -62,6 +62,16 @@ signals:
     url: /ape-signals-description/#ape-vocalisations
   - title: "Ape facial expressions"
     url: /ape-signals-description/#ape-facial-expressions
+
+scheme:
+  - title: "Interaction"
+    url: /gaps-coding-scheme/#interaction
+  - title: "ID_1"
+    url: /gaps-coding-scheme/#id_1
+  - title: "ID_2"
+    url: /gaps-coding-scheme/#id_2
+  - title: "Dyad"
+    url: /gaps-coding-scheme/#dyad
     
 elan_finder:
   - title: "What is it?"

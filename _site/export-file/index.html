@@ -9,19 +9,22 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Export annotated file in Excel - GApS</title>
-<meta name="description" content="This is our latest coding scheme release">
+<!-- begin _includes/seo.html --><title>Export annotated file as Excel output file - GApS</title>
+<meta name="description" content="A Coding Scheme for Great Ape Signals in ELAN">
 
+
+  <meta name="author" content="Emilie Genty & Michael Fuchs">
+  
 
 
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="GApS">
-<meta property="og:title" content="Export annotated file in Excel">
+<meta property="og:title" content="Export annotated file as Excel output file">
 <meta property="og:url" content="http://localhost:4000/export-file/">
 
 
-  <meta property="og:description" content="This is our latest coding scheme release">
+  <meta property="og:description" content="A Coding Scheme for Great Ape Signals in ELAN">
 
 
 
@@ -44,7 +47,7 @@
     "@context": "https://schema.org",
     
       "@type": "Person",
-      "name": null,
+      "name": "Emilie Genty & Michael Fuchs",
       "url": "http://localhost:4000/"
     
   }
@@ -59,8 +62,6 @@
 <!-- end _includes/seo.html -->
 
 
-
-  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="GApS Feed">
 
 
 <!-- https://t.co/dKP3o1e -->
@@ -105,11 +106,11 @@
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         
-          <a class="site-logo" href="/"><img src="/assets/images/logo.png" alt="GApS"></a>
+          <a class="site-logo" href="/"><img src="/assets/images/gaps_logo.png" alt="GApS"></a>
         
         <a class="site-title" href="/">
           GApS
-          <span class="site-subtitle">A Coding Scheme for Great Apes Signals in ELAN</span>
+          <span class="site-subtitle">A Coding Scheme for Great Ape Signals in ELAN</span>
         </a>
         <ul class="visible-links"><li class="masthead__menu-item">
               <a href="/gesture-definition/">Gesture definition</a>
@@ -118,15 +119,11 @@
             </li><li class="masthead__menu-item">
               <a href="/gaps-coding-scheme/">GApS Coding scheme</a>
             </li><li class="masthead__menu-item">
-              <a href="/definition-of-signals/">Definition of signals</a>
+              <a href="/ape-signals-description/">Ape signals description</a>
             </li><li class="masthead__menu-item">
               <a href="/elan-finder/">ELAN finder</a>
             </li><li class="masthead__menu-item">
-              <a href="/iot-test/">Interrater observer reliability test with EasyDIAG</a>
-            </li><li class="masthead__menu-item">
-              <a href="/references/">References</a>
-            </li><li class="masthead__menu-item">
-              <a href="/00-layout/">Layout</a>
+              <a href="/download/">Download</a>
             </li></ul>
         
         <button class="greedy-nav__toggle hidden" type="button">
@@ -201,6 +198,8 @@
           
             <li><a href="/export-file/" class="active">Export annotated file in Excel</a></li>
           
+            <li><a href="/irr-test/">Interrater reliability test with EasyDIAG</a></li>
+          
         </ul>
         
       </li>
@@ -215,7 +214,7 @@
 
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Export annotated file in Excel">
+    <meta itemprop="headline" content="Export annotated file as Excel output file">
     
     
     
@@ -223,7 +222,7 @@
     <div class="page__inner-wrap">
       
         <header>
-          <h1 id="page-title" class="page__title" itemprop="headline">Export annotated file in Excel
+          <h1 id="page-title" class="page__title" itemprop="headline">Export annotated file as Excel output file
 </h1>
           
 
@@ -233,7 +232,11 @@
 
       <section class="page__content" itemprop="text">
         
-        <p>Once you are done with creating your annotation file, you can export it as an Excel output file for further analysis. (see example file 16.01.23_Example GAps coding2_Play_KU_CLB_R1.txt)</p>
+        <h2 id="export-annotated-file-as-excel-output-file">Export annotated file as Excel output file</h2>
+
+<p>Once you are done with creating your annotation file, you can export it as an Excel output file for further analysis. (see example <a href="/assets/download/GApS_Excel_output_Example.xls">here</a> )</p>
+
+<p><img src="/assets/videos/export.gif" alt="Alt text" /></p>
 
 <p>To export your annotated file:</p>
 
@@ -244,22 +247,59 @@
 <p><img src="/assets/images/Export coding.png" alt="alt text" /></p>
 
 <ul>
-  <li>Select the tiers you wish to export (order them as you wish to see them organized in Excel columns) &gt; Select “Separate columns for each tier” &gt; Select “Sliced annotation output showing temporal co-occurrences” &gt; Select “include time column for” &gt; tick begin time, end time, duration and msec</li>
+  <li>Select the tiers you wish to export (order them as you wish to see them organized in Excel columns)</li>
+  <li>In the output options select “Separate columns for each tier” &gt; Select “include time column for” &gt; tick begin time, end time, duration and msec &gt; OK</li>
 </ul>
 
 <p><img src="/assets/images/Export coding 1.png" alt="alt text" /></p>
 
 <ul>
-  <li>Select a destination folder and name your template</li>
+  <li>Select destination folder and file name your output file &gt; Select encoding format as UTF-8 &gt; Save</li>
 </ul>
 
 <p><img src="/assets/images/Export coding 2.png" alt="alt text" /></p>
 
+<p>Once your annotated file has been exported as a Tab-delimited Text file to the destination folder, you can open it with Excel.</p>
+
+<h2 id="export-multiple-annotated-files-as-single-excel-output-file">Export multiple annotated files as single Excel output file</h2>
+
+<p>If you have several files annotated in your data set, you have the possibility to export multiple annotation files as one output file.</p>
+
+<p>To do so:</p>
 <ul>
-  <li>Select encoding format as UTF-8</li>
+  <li>Go to menu File &gt; Export Multiple Files As &gt; Tab-delimited Text</li>
 </ul>
 
-<p><img src="/assets/images/Export coding 3.png" alt="alt text" /></p>
+<p><img src="/assets/images/Export coding.png" alt="alt text" /></p>
+
+<ul>
+  <li>Specify a domain for your annotated files &gt;New Domain…</li>
+</ul>
+
+<p><img src="/assets/images/Figure 30.png" alt="alt text" /></p>
+
+<ul>
+  <li>Select the folder containing your annotated files&gt; OK</li>
+</ul>
+
+<p><img src="/assets/images/Figure 31.png" alt="alt text" /></p>
+
+<ul>
+  <li>Specify a domain to save your exported files, type a name (e.g., GApS coding examples) &gt; OK</li>
+</ul>
+
+<p><img src="/assets/images/Figure 32.png" alt="alt text" /></p>
+
+<ul>
+  <li>Select the tiers you wish to export (order them as you wish to see them organized in Excel columns)</li>
+  <li>In the output options select “Separate columns for each tier” &gt; Select “include time column for” &gt; tick begin time, end time, duration and msec &gt; OK</li>
+</ul>
+
+<p><img src="/assets/images/Export coding 1.png" alt="alt text" /></p>
+
+<p>Once your annotated files have been exported as a Tab-delimited Text file in the destination folder, you can open it with Excel.</p>
+
+<p>Your Excel output file might require some post-hoc grooming to make it ready for further analysis. For instance, in our template, the general information related to the file, e.g., study site, species, dyad, etc. are annotated as a 3sec fixed-interval annotation, and as a consequence, these annotations will only appear in the first few rows of the corresponding columns. These annotations will thus have to be copied down across the other rows of the corresponding interaction. You might also want to give a number to the different interactions that have been annotated. You might want to copy manually the Bout, Sequence, and Combination numbers on the rows corresponding to the signals including in those (see example <a href="/assets/download/GApS_Excel_output_Example.xls">here</a>) for an illustration). All these little manipulations will depend on your research question and the type of analysis you wish to perform</p>
 
 
         
@@ -301,14 +341,18 @@
     
 
     
-
+      
+        
+          <li><a href="https://github.com/GreatApesGestures/GreatApesGestures.github.io" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
     
-      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+
     
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2023 GApS. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2023 Emilie Genty & Michael Fuchs. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>

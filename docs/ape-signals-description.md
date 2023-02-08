@@ -6,14 +6,15 @@ classes: wide
 sidebar:
     nav: "signals"
 ---
+![Alt text](../assets/images/site/portrait3_Emilie_Genty.jpg)
 
-In the following tables you will a description and some illustrations of the ape signals (gestures, body signals, vocalizations, facial expressions) included in the template. These lists are not exhaustive but include all the signals that have been observed and analyzed for the purpose our different studies.
+In the following tables you will find a description and some illustrations of the ape signals (gestures, body signals, vocalizations, facial expressions) included in the template. These lists are not exhaustive but include all the signals that have been observed and analyzed for the purpose our different studies.
 
 ## Ape gestures
 
 Gestures in the following table were illustrated by Sidney Maffini.
 
-(see Byrne et al. 2017 for a comparison of gesture repertoires across ape species)
+(see Byrne et al. 2017[^1] for a comparison of gesture repertoires across ape species)
 
 | Gesture | Modality <br> A=audible <br> <nobr>S=silent visible</nobr> <br> T=tactile| Description | Illustration
 |:--------|:-------:|:-------:|:-------:|
@@ -118,16 +119,16 @@ Gestures in the following table were illustrated by Sidney Maffini.
 
 | Vocalisation | Description | Context of production | Illustration
 |:--------|:-------:|:-------:|:-------:|
-|Peeps|High-frequency, closed mouth vocalization. Short in duration and characterised by a simple, flat acoustic form composed of several harmonics that are generally un-modulated|Produced across a large array of contexts, especially common during feeding events and travel|![Alt text](../assets/images/Peep.png)(Clay et al.2015)|
+|Peeps|High-frequency, closed mouth vocalization. Short in duration and characterised by a simple, flat acoustic form composed of several harmonics that are generally un-modulated|Produced across a large array of contexts, especially common during feeding events and travel|![Alt text](../assets/images/Peep.png)(Clay et al.2015)[^2]|
 |High hoots|High-pitched long-distance call, like a ‘waah’ |Long distance communication, can be used to communicate between parties and given in response to external disturbance or excitement (e.g.  food arrival) ||
-|Contest hoots|Call sequences consisting of an introductory phase (modulated inverted u-shape form), an escalation phase composed of several stereotyped units (unmodulated inverted u-shape), and a let-down phase|Used by males to challenge another individual and display status to others|![Alt text](../assets/images/Contest%20hoot.png)(Genty et al. 2014)|
+|Contest hoots|Call sequences consisting of an introductory phase (modulated inverted u-shape form), an escalation phase composed of several stereotyped units (unmodulated inverted u-shape), and a let-down phase|Used by males to challenge another individual and display status to others|![Alt text](../assets/images/Contest%20hoot.png)(Genty et al. 2014)[^3]|
 |Victim screams|High-pitched, with shrill and rasping sounds given at full vocal strength, large number of harmonics and long in duration, accompanied by teeth-baring (complete lip retraction, exposing both teeth and gums, the mouth may be wide open)|Used by victim after conflict or during tantrums||
-|Copulation screams|Single or succession of high-frequency squeaks and screams|Used by females during mating events|![Alt text](../assets/images/Copulation%20scream.png)(Clay and Zuberbühler, 2011)|
+|Copulation screams|Single or succession of high-frequency squeaks and screams|Used by females during mating events|![Alt text](../assets/images/Copulation%20scream.png)(Clay and Zuberbühler, 2011)[^4]|
 |Pant laughter|Voiceless, jerky breathing which sounds like coarse low-pitched grunting, rather soft, accompanied by play-face|Used during socio-positive interactions, play, chase-play. Mostly given by subordinate to dominant ||
 |Laughter|Full laughter, sounds like a ‘ah-ah-ah’|Triggered by physical contact (tickle, bite)||
 |Pant grunts (greeting grunts)|A rhythmic series of brief, grunt-like, vocalized air expulsion sounding like a ‘eh-eh-eh’|Close-range vocalisation, uttered during approaches from subordinates to dominants in agonistic situations||
 |Alarm peep|Same as Peeps|Given in response to the discovery of a minor threat, or response to surprise||
-|Pout moan (or Whimpers)|Low-pitched, melodious call sounding like a whining “hoo-hoo”27, accompanied by pout face (lips are pursed forward and curled outward in front resulting in circular opening).|Used by infants for requests, used by adults during sexual initiations, food begging, or as a appeasement signal in agonistic interactions. Also used as a request  to stop current activity|(Genty, 2019)|
+|Pout moan (or Whimpers)|Low-pitched, melodious call sounding like a whining “hoo-hoo”27, accompanied by pout face (lips are pursed forward and curled outward in front resulting in circular opening).|Used by infants for requests, used by adults during sexual initiations, food begging, or as a appeasement signal in agonistic interactions. Also used as a request  to stop current activity|![Alt text](../assets/images/Pout%20moan%20vocalisation.png)(Genty, 2019)[^5]|
 |Threat Barks|Same as barks|Used during aggressive attacks, or if bothered by another individual approach or behaviour||
 |Wieew bark|A single, very loud bark, accompanied by facial expression of wide open mouth. Difficult to distinguish from high hoots|Given in response to alarm or hostility rather than excitement.||
 |Raspberry|Voiceless sounds, air is pressed through the lips, like a ‘prrrrr’|Used during grooming, or food begging||
@@ -140,3 +141,9 @@ Gestures in the following table were illustrated by Sidney Maffini.
 |Tense mouth|Lips show strong horizontal tension. They are either drawn inward or slightly bar- ing the teeth. The mouth may be opened but never widely. No vocaliza- tions accompany the display|Aggressive expression, before or during display behaviours. Displayed also in food competition situations |![Alt text](../assets/images/Facial%20expression%20Tight%20lips.jpg)|
 |Pout face|Lips are pursed forward and curled outward in front resulting in a circular opening. The lips are pressed together at the mouthcorners|Displayed to request for food or request physical contact. Sometimes displayed during grooming. Can express disappointment|![Alt text](../assets/images/Facial%20expression%20Pout.jpg)©Emilie Genty|
 |Play-face|Mouth is opened with the lips either a) in a relaxed position covering the upper teeth completely and the lower teeth partially, or b) retracted, without however pulling back the mouth resulting in baring of both the upper and lower and frontal teeth|Displayed during play invitation or play bouts|![Alt text](../assets/images/Facial%20expression%20playface.jpg)©Emilie Genty |
+
+[^1]: Byrne R.W., Cartmill E. Genty E., Graham K. E., Hobaiter, C.,Tanner J (2017). Great ape gestures: Intentional communication with a rich set of innate signals. Animal Cognition. 20, 755–769 (2017).
+[^2]: Clay Z., Archbold J. Zuberbühler K. (2015). Functional flexibility in wild bonobo vocal behaviour. PeerJ 3, e1124. 
+[^3]: Genty E., Clay Z., Hobaiter C., & Zuberbühler K. (2014). Multi-modal use of a socially directed call in bonobos. PloS one, 9(1), e84738.
+[^4]: Clay Z, Zuberbuhler K (2011) The structure of bonobo copulation calls during reproductive & non-reproductive sex. Ethology 117: 1158–1169.
+[^5]: Genty E. (2019). Vocal–gestural combinations in infant bonobos: new insights into signal functional specificity. (2019). Animal Cognition 22, 505–518 https://doi.org/10.1007/s10071-019-01267-0.

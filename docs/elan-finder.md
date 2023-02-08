@@ -5,6 +5,8 @@ permalink: /elan-finder/
 sidebar:
     nav: "elan_finder"
 ---
+![Alt text](../assets/images/site/play_Emilie_Genty.jpg)
+
 ## What is it?
 
 **elan_finder** is a free open source software provided under the MIT license. 

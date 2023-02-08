@@ -10,8 +10,11 @@
     <meta charset="utf-8">
 
 <!-- begin _includes/seo.html --><title>GApS</title>
-<meta name="description" content="This is our latest coding scheme release">
+<meta name="description" content="A Coding Scheme for Great Ape Signals in ELAN">
 
+
+  <meta name="author" content="Emilie Genty & Michael Fuchs">
+  
 
 
 <meta property="og:type" content="website">
@@ -21,7 +24,7 @@
 <meta property="og:url" content="http://localhost:4000/">
 
 
-  <meta property="og:description" content="This is our latest coding scheme release">
+  <meta property="og:description" content="A Coding Scheme for Great Ape Signals in ELAN">
 
 
 
@@ -44,7 +47,7 @@
     "@context": "https://schema.org",
     
       "@type": "Person",
-      "name": null,
+      "name": "Emilie Genty & Michael Fuchs",
       "url": "http://localhost:4000/"
     
   }
@@ -59,8 +62,6 @@
 <!-- end _includes/seo.html -->
 
 
-
-  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="GApS Feed">
 
 
 <!-- https://t.co/dKP3o1e -->
@@ -85,7 +86,7 @@
 
   </head>
 
-  <body class="layout--home">
+  <body class="layout--single">
     <nav class="skip-links">
   <ul>
     <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
@@ -105,11 +106,11 @@
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         
-          <a class="site-logo" href="/"><img src="/assets/images/logo.png" alt="GApS"></a>
+          <a class="site-logo" href="/"><img src="/assets/images/gaps_logo.png" alt="GApS"></a>
         
         <a class="site-title" href="/">
           GApS
-          <span class="site-subtitle">A Coding Scheme for Great Apes Signals in ELAN</span>
+          <span class="site-subtitle">A Coding Scheme for Great Ape Signals in ELAN</span>
         </a>
         <ul class="visible-links"><li class="masthead__menu-item">
               <a href="/gesture-definition/">Gesture definition</a>
@@ -118,15 +119,11 @@
             </li><li class="masthead__menu-item">
               <a href="/gaps-coding-scheme/">GApS Coding scheme</a>
             </li><li class="masthead__menu-item">
-              <a href="/definition-of-signals/">Definition of signals</a>
+              <a href="/ape-signals-description/">Ape signals description</a>
             </li><li class="masthead__menu-item">
               <a href="/elan-finder/">ELAN finder</a>
             </li><li class="masthead__menu-item">
-              <a href="/iot-test/">Interrater observer reliability test with EasyDIAG</a>
-            </li><li class="masthead__menu-item">
-              <a href="/references/">References</a>
-            </li><li class="masthead__menu-item">
-              <a href="/00-layout/">Layout</a>
+              <a href="/download/">Download</a>
             </li></ul>
         
         <button class="greedy-nav__toggle hidden" type="button">
@@ -157,7 +154,7 @@
 
   <div class="author__content">
     
-      <h3 class="author__name" itemprop="name"></h3>
+      <h3 class="author__name" itemprop="name">Emilie Genty & Michael Fuchs</h3>
     
     
   </div>
@@ -167,6 +164,12 @@
     <ul class="author__urls social-icons">
       
 
+      
+        
+          
+            <li><a href="https://github.com/GreatApesGestures/GreatApesGestures.github.io" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+          
+        
       
 
       
@@ -233,29 +236,78 @@
 
 
 
-  <div class="archive">
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
     
-      <h1 id="page-title" class="page__title"></h1>
     
-    The aim of this manual is to offer a systematic and reproducible way of coding ape gestures and combination of signals exchanges with the help of a tutorial, ELAN templates, coding schemes, coding examples, and Excel output, to promote data sharing and reproducibility, and to facilitate inter-coder reliability. This coding scheme protocol is not intended to be exhaustive, but to provide a good base to start coding gestures and signal combinations. This coding scheme can easily be adapted to your own research question and study species and aims at filling in the “gaps” between studies and methodologies when it comes to the study of animal signalling. We also provide a new tool “ELAN_finder”, that allows to find specific occurrences in your dataset, coded in ELAN, and to then create and extract short illustrative video clips of those specific occurrences.
+    
+    
 
-We will first provide a simplified tutorial on how to get started with ELAN in order to apply our coding scheme, then describe the GApS coding scheme.
+    <div class="page__inner-wrap">
+      
+        <header>
+          
+          
 
 
-<h3 class="archive__subtitle">Recent Posts</h3>
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        The aim of this tutorial is to provide a systematic and reproducible way of coding ape gestures and combination of signals with ELAN. <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup> 
+
+<img src="assets/images/site/Bonobos_call_Emilie_Genty.jpg">
+
+We describe and detail our GApS (Great Apes Signals) coding scheme, provide our ELAN coding template, some coding examples, signal descriptions, and Excel outputs. <br><br>
+
+Our coding scheme is not intended to be definitive, but to provide a good starting point for coding gestures and signal combinations, to promote data sharing and reproducibility, and facilitate inter-coder reliability. <br><br>
+
+Its aim is to fill in the “gaps” between species, studies and methodologies in the field of animal signalling research. <br><br>
+
+The coding scheme can easily be adapted to any research question and study species. <br><br>
+ 
+We also provide a new innovative open-source software, called 'elan_finder', developed specifically for exploring annotated files in ELAN. It allows you to find specific occurrences and annotations in your entire ELAN database, to preview them and extract them in a spreadsheet format. <br><br>
+
+<div class="footnotes" role="doc-endnotes">
+    <ol>
+      <li id="fn:1" role="doc-endnote">
+        <p>ELAN (Version 6.4) [Computer software]. (2022). Nijmegen: Max Planck Institute for Psycholinguistics, The Language Archive. Retrieved from https://archive.mpi.nl/tla/elan. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+      </li>
+    </ol>
+  </div>
+
+<br><br>
+If you use our coding scheme and/or its related open-access material please cite:<br><br>
+Genty, E., & Fuchs, M. (2023). GApS: A Coding Scheme for Great Apes Signals in ELAN (Version v1.0.2). https://greatapesgestures.github.io/ <br><br>
 
 
+<a href="https://doi.org/10.5281/zenodo.7573664"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.7573664.svg" alt="DOI"></a>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
 
 
-<div class="entries-list">
+        
+
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
   
 </div>
 
-
-
-
-  </div>
-</div>
     </div>
 
     
@@ -270,14 +322,18 @@ We will first provide a simplified tutorial on how to get started with ELAN in o
     
 
     
-
+      
+        
+          <li><a href="https://github.com/GreatApesGestures/GreatApesGestures.github.io" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
     
-      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+
     
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2023 GApS. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2023 Emilie Genty & Michael Fuchs. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>

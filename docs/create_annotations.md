@@ -13,7 +13,11 @@ An **annotation** is any type of text (e.g., a speech transcription, a translati
 
 There are several working modes available to create annotations, but in most cases you will only need to use the annotation and segmentation modes to annotate your media file.
 
+
   * **Segmentation mode**: designed for rapid and easy creation of empty annotations while the media is playing <br><br>
+
+  ![Alt text](../assets/videos/segmentation.gif)
+
   In this mode, there are several segmentation options (ways to create time intervals in your tiers)
 
       * <ins>“two keystrokes per annotation”</ins> for non-adjacent annotations (press “enter” once to create 1st boundary of the segment and press “enter” a second time to create the 2nd boundary of the segment) 
@@ -27,6 +31,9 @@ There are several working modes available to create annotations, but in most cas
     To _delete_ a created segment: it is possible to delete a created segment by selecting it (it becomes green) and pressing the back key to delete it.
 
   * **Annotation mode**:  generic mode in which almost all functions are available <br><br>
+
+  ![Alt text](../assets/videos/annotation_mode.gif)
+
   In this mode, you can create time intervals (segments) by using the <ins>selection mode</ins>, or simply annotate already created intervals in the segmentation mode. <br><br>
   To _adjust_ the boundaries of a created segment: you cannot adjust the boundaries in this mode, to do so you have to switch to the Segmentation mode (see above section. <br><br>
   To _delete_ a created segment: you can remove a segment by selecting it (it becomes blue), then go to the menu <ins>Annotation</ins> > <ins>Delete annotation</ins>.   <br><br>
@@ -82,6 +89,7 @@ To create **annotations** without already existing segments
 
 You can automatically create annotations from overlapping segments from different tiers (e.g., for Mutual gaze presence= overlap segment between ID_1_gaze orientation and ID_2_gaze orientation segments) 
 
+![Alt text](../assets/videos/overlaps.gif)
 
   * Go to Menu Tier > create annotation from overlaps
 

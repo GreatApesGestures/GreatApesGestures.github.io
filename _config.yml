@@ -3,15 +3,15 @@ minimal_mistakes_skin: "default"
 # theme: minimal-mistakes-jekyll
 title: GApS
 title_separator: "-"
-subtitle: A Coding Scheme for Great Apes Signals in ELAN
+subtitle: A Coding Scheme for Great Ape Signals in ELAN
 authors: Emilie Genty, Michael Fuchs
-logo: /assets/images/logo.png
+logo: /assets/images/gaps_logo.png
 
 doi: <a href="https://zenodo.org/badge/latestdoi/571517799"><img src="https://zenodo.org/badge/571517799.svg" alt="DOI"></a>
 
 # Site Settings
-name                     : "E. Genty and M. Fuchs"
-description              : "A Coding Scheme for Great Apes Signals in ELAN"
+name                     : "Emilie Genty & Michael Fuchs"
+description              : "A Coding Scheme for Great Ape Signals in ELAN"
 url                      : "https://greatapesgestures.github.io"
 # baseurl                  : "/test"
 repository               : "GreatApesGestures/GreatApesGestures.github.io"
@@ -21,7 +21,7 @@ repository               : "GreatApesGestures/GreatApesGestures.github.io"
 
 # Site Author
 author:
-  name             : "E. Genty and M. Fuchs"
+  name             : "Emilie Genty & Michael Fuchs"
 #   # avatar           : "/assets/images/bio-photo.jpg"
 #   bio              : ""
 #   location         : "UNINE"
@@ -36,6 +36,9 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/GreatApesGestures/GreatApesGestures.github.io"
+
+atom_feed:
+  hide: true
 
 plugins:
   - jekyll-include-cache

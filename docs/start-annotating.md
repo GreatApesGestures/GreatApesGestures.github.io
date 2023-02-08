@@ -15,6 +15,7 @@ A **tier** is a set of annotations that share the same characteristics (e.g., ID
 
 If you are not using an already existing template file (e.g., GApS_coding template.etf) for which tiers have already been created, or if you wish to add new tiers to the existing template, then you can create your own tiers.
 
+![Alt text](../assets/videos/tiers.gif)
 
 To create new tiers:
 
