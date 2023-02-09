@@ -1,6 +1,6 @@
 ## Welcome! 
 
-Welcome to **GApS: A Coding Scheme for Great Apes Signals in ELAN**
+Welcome to **GApS: A Coding Scheme for Great Ape Signals in ELAN**
 
 ## Goal
 
