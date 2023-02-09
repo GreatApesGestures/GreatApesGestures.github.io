@@ -28,4 +28,4 @@ In this section you can find our additional material for download
 [Output example](../assets/download/GApS_Excel_output_Example.xls)
 
 
-![Alt text](../assets/images/site/portrait_Emilie_Genty.jpg)
+![Alt text](../assets/images/site/portrait_Emilie_Genty.jpg)*&copy;Emilie Genty*
