@@ -89,7 +89,6 @@ To create **annotations** without already existing segments
 
 You can automatically create annotations from overlapping segments from different tiers (e.g., for Mutual gaze presence= overlap segment between ID_1_gaze orientation and ID_2_gaze orientation segments) 
 
-![Alt text](../assets/videos/overlaps.gif)
 
   * Go to Menu Tier > create annotation from overlaps
 
@@ -106,5 +105,5 @@ You can automatically create annotations from overlapping segments from differen
 ![alt text](/assets/images/overlaps 4.png)
 ![alt text](/assets/images/overlaps 5.png)
 
-
+![Alt text](../assets/videos/overlaps.gif)
 
