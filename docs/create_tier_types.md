@@ -8,7 +8,6 @@ sidebar:
 
 Every tier can be assigned to a Tier type that specifies the annotations constraints for this tier.
 
-![Alt text](../assets/videos/types.gif)
 
 To create Tier types:
 
@@ -26,4 +25,4 @@ To create Tier types:
 
   ![alt text](/assets/images/Tier type 3.png)
 
-
+![Alt text](../assets/videos/types.gif)
