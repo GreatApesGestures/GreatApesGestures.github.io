@@ -10,7 +10,6 @@ sidebar:
 
 Once you are done with creating your annotation file, you can export it as an Excel output file for further analysis. (see example [here](../assets/download/GApS_Excel_output_Example.xls) )
 
-![Alt text](../assets/videos/export.gif)
 
 To export your annotated file:
 
@@ -54,6 +53,8 @@ To do so:
   * In the output options select “Separate columns for each tier” > Select “include time column for” > tick begin time, end time, duration and msec > OK 
 
  ![alt text](/assets/images/Export coding 1.png)
+ 
+ ![Alt text](../assets/videos/export.gif)
 
 Once your annotated files have been exported as a Tab-delimited Text file in the destination folder, you can open it with Excel.
 
