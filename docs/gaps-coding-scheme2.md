@@ -7,7 +7,7 @@ sidebar:
     nav: "scheme"
 footer: "test"
 ---
-![Alt text](../assets/images/site/grooming__Emilie_Genty.jpg)
+![Alt text](../assets/images/site/grooming__Emilie_Genty.jpg)*&copy;Emilie Genty*
 
 In the following tables, we provide a description of all the tiers (variables) contained in the GApS coding template (download [here](../assets/download/GApS_Coding%20template%202.0.etf)) and describe their different attributes.
 
