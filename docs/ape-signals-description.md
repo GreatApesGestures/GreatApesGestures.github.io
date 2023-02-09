@@ -6,7 +6,7 @@ classes: wide
 sidebar:
     nav: "signals"
 ---
-![Alt text](../assets/images/site/portrait3_Emilie_Genty.jpg)
+![Alt text](../assets/images/site/portrait3_Emilie_Genty.jpg)*&copy;Emilie Genty*
 
 In the following tables you will find a description and some illustrations of the ape signals (gestures, body signals, vocalizations, facial expressions) included in the template. These lists are not exhaustive but include all the signals that have been observed and analyzed for the purpose our different studies.
 
