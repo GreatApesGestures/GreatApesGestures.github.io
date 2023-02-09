@@ -12,7 +12,6 @@ ELAN [^1]  is a free computer software that was developed by the [Max Planck Ins
 
 You can [download](https://archive.mpi.nl/tla/elan/download) it for free . If you have never used ELAN, you can refer to the [official online tutorial](https://www.mpi.nl/tools/elan/docs/manual/index.html), in addition, several YouTube tutorials are available online. 
 
-![Alt text](../assets/videos/opening.gif)
 
 To start ELAN:
 
@@ -31,6 +30,8 @@ To start ELAN:
   * If you have an already existing template file, in Selected files: click on “Add Template File”, select the coding template file (e.g., GApS_coding template.etf), otherwise, open your media file alone.
 
 ![alt text](/assets/images/fig3_template.png)
+
+![Alt text](../assets/videos/opening.gif)
 
 [^1]: ELAN (Version 6.4) [Computer software]. (2022). Nijmegen: Max Planck Institute for Psycholinguistics, The Language Archive. Retrieved from https://archive.mpi.nl/tla/elan.
 
