@@ -4,7 +4,7 @@ layout: single
 permalink: /gesture-definition/
 ---
 
-![Alt text](../assets/images/site/gesture_Emilie_Genty.jpg)
+![Alt text](../assets/images/site/gesture_Emilie_Genty.jpg)*&copy;Emilie Genty*
 
 We define a gesture as:
   1. **a mechanically ineffective** physical movement of the limbs or head: the signaler must reach its goal, i.e., modify the recipient’s behavior in a desired way, only by signaling to the recipient and not by forcing the recipient to behave in a certain way (e.g., request the recipient to move away by signaling, instead of pushing the recipient away by using physical force),   
