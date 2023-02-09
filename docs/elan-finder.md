@@ -5,7 +5,7 @@ permalink: /elan-finder/
 sidebar:
     nav: "elan_finder"
 ---
-![Alt text](../assets/images/site/play_Emilie_Genty.jpg)
+![Alt text](../assets/images/site/play_Emilie_Genty.jpg)*&copy;Emilie Genty*
 
 ## What is it?
 
